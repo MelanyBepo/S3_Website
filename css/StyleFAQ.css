@@ -1,0 +1,101 @@
+.FAQ-img {
+  background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions.webp);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px 1px #34343282;
+  border-radius: 1px;
+  width: 100%;
+  height: 50vw;
+  z-index: -1;
+  position: relative;
+}
+
+.FAQ-header1 {
+  color: aliceblue;
+  font-size: 6.2rem;
+  width: 2.4rem;
+  line-height: 1.8;
+
+  z-index: 1;
+
+  position: absolute;
+  top: 15vw;
+  left: 15vw;
+}
+
+.FAQ-accordion {
+  box-shadow: 0 0 3px #34343260;
+  padding: 1.2rem;
+  border-radius: 9px;
+}
+
+.FAQ-accordion-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.FAQ-accordion-header {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.FAQ-accordion-header::after {
+  content: "\02C5";
+  text-align: center;
+  color: aliceblue;
+  font-size: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 0 0 2px #343432;
+  background-color: #6577ff;
+  transition: transform 0.5s ease-in-out;
+
+  position: absolute;
+  right: 2.4rem;
+}
+
+.FAQ-accordion-header.active::after {
+  transform: rotate(-180deg);
+  background-color: #bfe0a9;
+  color: #343432;
+}
+
+.FAQ-number {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #2f5915;
+  background-color: #a7b1ff6e;
+  padding: 0.4rem 1.2rem;
+  border-radius: 9px;
+  opacity: 50%;
+}
+
+.FAQ-question {
+  color: #2f5915;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.FAQ-accordion-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.FAQ-answer {
+  margin-bottom: 1.2rem;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, transparent, #152599, transparent) 1;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 1.2rem;
+}
