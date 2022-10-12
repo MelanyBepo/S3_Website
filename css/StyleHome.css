@@ -31,7 +31,7 @@
 
 .hero-header {
   font-size: 7.4rem;
-  color: #070c33;
+  color: #0f0f0e;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
   border-image: linear-gradient(to right, #0e1866, transparent) 1;
@@ -46,6 +46,7 @@
 .hero-description {
   width: 25vw;
   font-size: 2rem;
+  font-weight: 600;
   letter-spacing: 0.75px;
   line-height: 1.2;
   text-align: center;
@@ -67,6 +68,7 @@
   padding: 1.2rem;
   border-radius: 9px;
   color: #e7e8e9;
+  font-weight: 600;
   background-color: #5eb229;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 3px #141413;
@@ -274,7 +276,7 @@
 
 .lt-cta {
   grid-column: 1 /-1;
-  background-color: #152599;
+  background-color: #192bb3;
   padding: 2.4rem;
   border-radius: 9px;
   color: #e7e8e9;
@@ -301,7 +303,7 @@
 
 .lt-process-button:hover,
 .lt-process-button:active {
-  background-color: #233dff;
+  background-color: #6577ff;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }
@@ -321,7 +323,7 @@
 
 .lt-cta-button:hover,
 .lt-cta-button:active {
-  background-color: #233dff;
+  background-color: #6577ff;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }

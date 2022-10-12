@@ -5,7 +5,7 @@
 class HeaderTemp extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<header class="header container">
-    <a href="homepage.html">
+    <a href="index.html">
       <img
         class="SSS-logo"
         alt="Sales Superior Services Logo"
@@ -66,7 +66,7 @@ class FooterTemp extends HTMLElement {
     this.innerHTML = `<footer class="section-footer">
     <div class="container grid grid--3-cols">
       <div class="logo-column">
-        <a href="homepage.html" class="logo-container">
+        <a href="index.html" class="logo-container">
           <img
             class="logo-footer"
             alt="Sales Superior Services Logo"
