@@ -1,13 +1,13 @@
 .aboutus-img {
-  background-image: url(../HomePage/Home\ Call\ center\ Img.webp);
+  background-image: url(../PageHeadermedia/Join\ us\ team.webp);
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 5px 1px #34343282;
   border-radius: 1px;
   max-width: 100%;
-  height: 45vw;
+  height: 25vw;
   z-index: -1;
   position: relative;
 }
@@ -16,4 +16,143 @@
   position: absolute;
   width: 100%;
   z-index: -2;
+}
+
+.about-header {
+  font-size: 5.2rem;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+
+  position: absolute;
+  top: 35vh;
+  right: 25vh;
+}
+
+.about-subheader {
+  font-size: 2.4rem;
+  color: aliceblue;
+  letter-spacing: 0.2rem;
+  line-height: 3.2rem;
+  text-align: right;
+
+  position: absolute;
+  top: 55vh;
+  right: 25vh;
+}
+
+/** Section Mission and Vision**/
+
+.section-missionvison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9.6rem;
+  margin-top: 3.6rem;
+}
+
+.mv-img {
+  width: 100%;
+  height: 100%;
+}
+
+.mv-img-vision {
+  grid-column: -3/-2;
+  grid-row: 2/3;
+}
+
+.mv-vision {
+  grid-column: -2/-1;
+}
+
+.mv-card {
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 2.4rem;
+  background-image: url(../Abouruspage/Blue\ light\ background.webp);
+}
+.mv-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+}
+
+.mv-header-m {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+}
+.mv-text,
+.ov-text {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 0.4rem;
+}
+
+/** Section Our Value**/
+.ov-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  margin: 0 36rem;
+}
+
+.ov-cardholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem;
+  padding: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ov-card-icon {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+
+.ov-subheader {
+  margin: 0;
+}
+
+.ov-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0, 1 auto;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 0.8rem;
+}
+
+.oc-c-1 {
+  background-color: #bfe0a9;
+}
+
+.oc-c-2 {
+  background-color: #f8f8f8;
+}
+
+.oc-c-3 {
+  background-color: #a7b1ff;
+}
+
+.ov-card-head {
+  display: flex;
+  align-items: center;
 }
