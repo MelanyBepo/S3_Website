@@ -1,0 +1,78 @@
+.join-img {
+  background-image: url(../PageHeadermedia/Join\ us\ team\ 2.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px 1px #34343282;
+  border-radius: 1px;
+  max-width: 100%;
+  height: 25vw;
+  z-index: -1;
+  position: relative;
+}
+
+.page-background {
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+}
+
+.Joinus-header {
+  font-size: 5.2rem;
+  color: #1d1d1b;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+
+  position: absolute;
+  top: 35vh;
+  right: 55vh;
+}
+
+.Joinus-subheader {
+  font-size: 2.4rem;
+  color: #1d1d1b;
+  letter-spacing: 0.2rem;
+  line-height: 3.2rem;
+  text-align: right;
+  position: absolute;
+
+  top: 50vh;
+  right: 55vh;
+}
+
+/** Section Why for SSS**/
+
+.ws-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  margin: 0 36rem;
+}
+.ws-subheader {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.ws-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ws-whysssimg {
+  width: 50%;
+}
+
+.check-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
