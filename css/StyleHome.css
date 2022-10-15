@@ -216,7 +216,6 @@
 /** Why SSS section**/
 .section-whychoosesss {
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .why-benefit {
@@ -251,7 +250,6 @@
 .why-list {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   padding: 2.4rem;
@@ -277,10 +275,8 @@
 /** Let's Talk**/
 .lt-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 3.6rem;
   padding: 2.4rem;
-
   align-items: center;
   justify-content: center;
 }
@@ -327,7 +323,9 @@
   box-shadow: inset 0 0 10px 2px #141413;
 }
 
-.lt-cta-button {
+.lt-cta-button,
+.lt-cta-button:link,
+.lt-cta-button:visited {
   background-color: #5eb229;
   padding: 1.2rem;
   border-radius: 9px;

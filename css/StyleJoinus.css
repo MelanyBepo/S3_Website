@@ -59,20 +59,175 @@
   margin-top: 1.2rem;
 }
 
+.ws-grid {
+  display: grid;
+  gap: 4.8rem;
+  padding: 2.4rem;
+}
+
 .ws-benefits {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 2.4rem;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.2rem;
   align-items: center;
   justify-content: center;
 }
 
+.ws-card-work {
+  grid-column: 2/3;
+}
+.ws-card-compensation {
+  grid-column: 1/3;
+  margin: 0 12.4rem;
+}
+
 .ws-whysssimg {
-  width: 50%;
+  width: 4.8rem;
 }
 
 .check-icon {
   width: 2.4rem;
   height: 2.4rem;
+}
+
+.ws-benefitcard {
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+}
+
+.ws-benefitcard:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.ws-cardheader {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ws-benefitclass {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.ws-list-benefits {
+  display: grid;
+  gap: 1.2rem;
+  padding: 1.2rem;
+
+  list-style: none;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.ws-benefit {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ws-benefit-adjust {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+.ws-c-1 {
+  background-color: #bfe0a9;
+}
+
+.ws-c-2 {
+  background-color: #f8f8f8;
+}
+
+.ws-c-3 {
+  background-color: #a7b1ff;
+}
+
+.ws-btnholder {
+  display: flex;
+  justify-content: center;
+}
+
+.ws-applynowbtn,
+.ws-applynowbtn:link,
+.ws-applynowbtn:visited {
+  background-color: #5eb229;
+  padding: 1.2rem;
+  border-radius: 9px;
+  width: 15%;
+  box-shadow: 0 0 3px 0.1px #141413;
+
+  font-size: 2.4rem;
+  color: #e7e8e9;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ws-applynowbtn:hover,
+.ws-applynowbtn:active {
+  background-color: #6577ff;
+  color: #e7e8e9;
+  box-shadow: inset 0 0 10px 2px #141413;
+}
+
+/** Section how do we recruit?**/
+
+.hwr-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+  margin: 0 36rem;
+}
+
+.hwr-timeline {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.hwr-icon {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.hwr-timelineimg {
+  width: 80%;
+
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+
+.hwr-stepcard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.hwr-number {
+  padding: 0.4rem 0.8rem;
+  background-color: #7ec154;
+  border-radius: 10%;
+  box-shadow: 0 0 2px 1px #14141321;
+  font-size: 2rem;
+}
+
+.hwr-step {
+  text-align: center;
+  font-size: 1.8rem;
+  border-bottom: 0.3rem solid;
+  border-image: linear-gradient(to right, transparent, #4f64ff, transparent) 1;
+}
+
+.hwr-content {
+  text-align: center;
 }
