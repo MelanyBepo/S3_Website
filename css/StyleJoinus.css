@@ -43,7 +43,8 @@
 
 /** Section Why for SSS**/
 
-.ws-header {
+.ws-header,
+.an-header {
   color: #132408;
   letter-spacing: 0.5px;
   text-align: center;
@@ -52,7 +53,8 @@
   border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
   margin: 0 36rem;
 }
-.ws-subheader {
+.ws-subheader,
+.an-subheader {
   font-size: 2rem;
   letter-spacing: 0.5px;
   text-align: center;
@@ -154,31 +156,10 @@
   justify-content: center;
 }
 
-.ws-applynowbtn,
-.ws-applynowbtn:link,
-.ws-applynowbtn:visited {
-  background-color: #5eb229;
-  padding: 1.2rem;
-  border-radius: 9px;
-  width: 15%;
-  box-shadow: 0 0 3px 0.1px #141413;
-
-  font-size: 2.4rem;
-  color: #e7e8e9;
-  font-weight: 600;
-  text-align: center;
-}
-
-.ws-applynowbtn:hover,
-.ws-applynowbtn:active {
-  background-color: #6577ff;
-  color: #e7e8e9;
-  box-shadow: inset 0 0 10px 2px #141413;
-}
-
 /** Section how do we recruit?**/
 
-.hwr-header {
+.hwr-header,
+.er-header {
   color: #132408;
   letter-spacing: 0.5px;
   text-align: center;
@@ -331,4 +312,249 @@
   align-self: center;
   margin-left: 4.8rem;
   margin-right: auto;
+}
+
+/** Section  Employee Reviews**/
+
+.er-quotebox {
+  display: block;
+  padding: 2.4rem auto;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.er-quote {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.er-quoteauthor {
+  font-style: italic;
+  font-weight: 600;
+}
+/*--Carousel---*/
+
+.spbody {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spcontainer {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 2.4rem 0;
+}
+
+.spcontainer .main-card {
+  width: 200%;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 1s ease;
+}
+
+#two:checked ~ .main-card {
+  margin-left: -100%;
+}
+
+.main-card .cards {
+  width: calc(100% / 2 -0.1rem);
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-between;
+  margin: 0 4.8rem;
+  /*flex-wrap: wrap;*/
+}
+
+.main-card .cards .card {
+  width: calc(100% / 3 -0.1rem);
+  padding: 2.4rem 0 0 0;
+  margin: 0 2.4rem;
+  border-radius: 0.9rem;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 2px 2px #14141323;
+}
+
+.card-green {
+  background-color: #7ec154;
+}
+
+.card-blue {
+  background-color: #4f64ff;
+}
+
+.main-card .cards .card:hover {
+  transform: translateY(-1.2rem);
+}
+
+.cards .card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.cards .card .content .img {
+  height: 18rem;
+  width: 18rem;
+  margin-bottom: 0.4rem;
+  box-shadow: 0 0 1px 1px #14141338;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.cards .card .content .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  background: #e7e8e9;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 4.8rem 4.8rem 0.9rem 0.9rem;
+  padding: 2.4rem;
+  position: relative;
+}
+
+.card-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #0e1866;
+}
+
+.button {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.button label {
+  height: 3rem;
+  width: 24rem;
+  background: #192bb3;
+  margin: 0 0.4rem;
+  box-shadow: 0 0 1px 1px #14141338;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.button label.activespbtn {
+  width: 72rem;
+}
+
+#one:checked ~ .button label.one {
+  width: 72rem;
+}
+
+#two:checked ~ .button label.two {
+  width: 72rem;
+}
+
+#two:checked ~ .button label.one {
+  width: 24rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/** Section Apply NOW**/
+
+.an-contentgrid {
+  display: grid;
+  gap: 1.2rem;
+  padding: 1.2rem 2.4rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.an-image {
+  width: 100%;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141338;
+}
+
+.an-contenttext {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.an-subheader2 {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.an-benefitlist {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.an-benefitsbox {
+  background-color: #bdc5ff;
+  padding: 2.4rem;
+  border-radius: 9px;
+  box-shadow: 0 0 1px 1px #14141338;
+}
+
+.an-benefitsbox:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.an-benefit {
+  font-size: 1.6rem;
+}
+
+.an-benefit2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.ws-applynowbtn,
+.ws-applynowbtn:link,
+.ws-applynowbtn:visited {
+  background-color: #5eb229;
+  padding: 1.2rem;
+  border-radius: 9px;
+  width: 25%;
+  box-shadow: 0 0 3px 0.1px #141413;
+
+  font-size: 3.6rem;
+  color: #e7e8e9;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ws-applynowbtn:hover,
+.ws-applynowbtn:active {
+  background-color: #6577ff;
+  color: #e7e8e9;
+  box-shadow: inset 0 0 10px 2px #141413;
 }

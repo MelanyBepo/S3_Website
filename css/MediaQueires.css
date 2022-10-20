@@ -82,11 +82,21 @@
   .nav-open .btn-nav-icon[name="menu-icon"] {
     display: none;
   }
+
+  /*join us carousel
+  .main-card .cards .card {
+    width: calc(100% / 2 -10px);
+    margin: 20px 0 10px 0;
+  }*/
 }
 
 /* --- Mobile L 425px ---*/
 
 @media (max-width: 27em) {
+  /*join us carousel
+  .main-card .cards .card {
+    width: 100%;
+  }*/
 }
 
 /* --- Mobile M 375px  ---*/
