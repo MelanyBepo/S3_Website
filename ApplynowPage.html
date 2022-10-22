@@ -7,7 +7,7 @@
     <meta char set="UFT=8" />
     <meta
       name="description"
-      content="We strive to become one of the best contact centers. Therefore we work hard to recruit the best customer service and sales agents in an active and competitive call center hub in Latin America. "
+      content="We welcome any application throughout the year. Since our projects continue to grow, we are always looking to expand our talent pool."
     />
     <link rel="canonical" href="https://SuperiorSalesServices.com/applynow" />
     <title>Apply Now! - WFH Or On site</title>
@@ -31,12 +31,184 @@
   <body>
     <header-template></header-template>
     <main>
-      <h1>Apply from</h1>
-      <section class="section-joinus"></section>
-      <section class="section-whysss"></section>
-      <section class="section-howwerecruit"></section>
-      <section class="section-apply"></section>
-      <section class="section-employeesreviews"></section>
+      <div class="section-img" id="section-img">
+        <div
+          class="pcf-img"
+          role="img"
+          aria-label=" Blue light background with white tones."
+        >
+          &nbsp;
+        </div>
+        <img
+          class="page-background"
+          src="sharedcontent/Wave Design .webp"
+          alt="blue and green wave
+        design working as page background."
+        />
+        <h1 class="pcf-header">Apply Now</h1>
+      </div>
+
+      <section class="section-intro">
+        <h2 class="si-subheader">Pre-Contact Form</h2>
+        <p class="si-text">
+          <img
+            class="decoration"
+            src="sharedcontent/Decoration Icon.webp"
+            alt="Decoration circle"
+          />
+          To begin your application process, please provide us with your contact
+          information, which area you are interested and if you have any
+          questions.
+        </p>
+        <p class="si-text">
+          <img
+            class="decoration"
+            src="sharedcontent/Decoration Icon.webp"
+            alt="Decoration circle"
+          />
+          Once submitted, one of our team members will contact you as soon as
+          possible.
+        </p>
+      </section>
+      <section class="section-precontactform">
+        <div class="pcf-part1 grid--2-cols">
+          <h2 class="pcf-subtitle pcf-p1-title">Contact Information:</h2>
+          <div>
+            <label for="applicant-name">Your first and last name: </label>
+            <input
+              id="applicant-name"
+              name="applicant-name"
+              type="text"
+              placeholder="First and Last Name"
+              required
+            />
+          </div>
+          <div class="pcf-p1-email">
+            <label for="applicant-email">Your Email:</label>
+            <input
+              id="applicant-email"
+              name="applicant-email"
+              type="text"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="applicant-phone">Your best phone number: </label>
+            <input
+              id="applicant-phone"
+              name="applicant-phone"
+              type="number"
+              placeholder="###-###-###"
+              required
+            />
+            <p class="pcf-subnote">
+              *Please provide the best contact number to reach you. Our team
+              will try to contact you only two times.
+            </p>
+          </div>
+        </div>
+        <div class="pcf-part2">
+          <h2 class="pcf-subtitle">Tell us a bit about you:</h2>
+          <div>
+            <label for="applicant-location"
+              >Where are you located? (City and Country)</label
+            >
+            <input
+              id="applicant-location"
+              name="applicant-location"
+              type="text"
+              placeholder="San Pedro Sula, Honduras"
+              required
+            />
+          </div>
+          <div>
+            <label for="applicant-englishlevel"
+              >How would you describe your English level?</label
+            >
+            <select
+              id="applicant-englishlevel"
+              name="applicant-englishlevel"
+              required
+            >
+              <option value>Choose one option</option>
+              <option value="Beginner	(A1 -A2)">Beginner (A1 -A2)</option>
+              <option value="Intermediate (B1 -B2)">
+                Intermediate (B1 -B2)
+              </option>
+              <option value="Advanced (C1 to C2)">Advanced (C1 to C2)</option>
+            </select>
+          </div>
+          <div>
+            <label for="applicant-areatoapply"
+              >What position would you like to apply to?
+            </label>
+            <select
+              id="applicant-areatoapply"
+              name="applicant-areatoapply"
+              required
+            >
+              <option value>Choose one option</option>
+              <option value="Sales Executive">Sales Executive</option>
+              <option value="Customer Care Agent">Customer Care Agent</option>
+              <option value="Attorney Intake Agent">
+                Attorney Intake Agent
+              </option>
+              <option value="Call Transfer Specialist">
+                Call Transfer Specialist
+              </option>
+              <option value="Quality Assurance Agent">
+                Quality Assurance Agent
+              </option>
+              <option value="Team Leader">Team Leader</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="applicant-discovery"
+              >What position would you like to apply to?
+            </label>
+            <select
+              id="applicant-discovery"
+              name="applicant-discovery"
+              required
+            >
+              <option value>Choose one option</option>
+              <option value="Friend Referral">Friend Referral</option>
+              <option value="Industry Referral">Industry Referral</option>
+              <option value="Google/Bing/Yahoo Research">
+                Google/Bing/Yahoo Research
+              </option>
+              <option value="Facebook Ad">Facebook Ad</option>
+              <option value="Instagram Ad">Instagram Ad</option>
+              <option value="LinkedIn ">LinkedIn</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="pcf-part3">
+          <h2 class="pcf-subtitle">Question or Comments:</h2>
+          <div>
+            <p class="pcf-text">
+              Once we contact you, you will discuss most of your questions, but
+              if you would like, let us know what you are interested to know.
+            </p>
+            <label for="applicant-questions"
+              >Leave your questions or comments here:</label
+            >
+            <textarea
+              id="applicant-questions"
+              name="applicant-questions"
+              type="text"
+              cols="50"
+              row="10"
+              placeholder="Questions and Comments"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <button class="pcf-submitbtn">Submit Information</button>
+      </section>
     </main>
     <footer-template></footer-template>
   </body>

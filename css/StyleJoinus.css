@@ -1,13 +1,13 @@
 .join-img {
   background-image: url(../PageHeadermedia/Join\ us\ team\ 2.webp);
   background-attachment: fixed;
-  background-position: center;
+  background-position: top bottom;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 5px 1px #34343282;
   border-radius: 1px;
   max-width: 100%;
-  height: 25vw;
+  height: 55vh;
   z-index: -1;
   position: relative;
 }
@@ -25,8 +25,8 @@
   letter-spacing: 0.4rem;
 
   position: absolute;
-  top: 35vh;
-  right: 55vh;
+  top: 15rem;
+  right: 25rem;
 }
 
 .Joinus-subheader {
@@ -37,8 +37,8 @@
   text-align: right;
   position: absolute;
 
-  top: 50vh;
-  right: 55vh;
+  top: 23rem;
+  right: 25rem;
 }
 
 /** Section Why for SSS**/
@@ -170,7 +170,7 @@
 }
 
 .hwr-icon {
-  width: 40%;
+  width: 30%;
   border-radius: 9px;
   padding: 0.8rem;
   box-shadow: 0 0 3px 0.1px #141413;
@@ -336,16 +336,18 @@
 
 .spbody {
   min-height: 100vh;
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .spcontainer {
   max-width: 100%;
   overflow: hidden;
-  padding: 2.4rem 0;
+  padding: 1.2rem 0;
 }
 
 .spcontainer .main-card {
@@ -360,7 +362,7 @@
 }
 
 .main-card .cards {
-  width: calc(100% / 2 -0.1rem);
+  /*width: calc(100% / 2 -0.1rem);*/
   display: flex;
   gap: 2.4rem;
   justify-content: space-between;
@@ -369,7 +371,7 @@
 }
 
 .main-card .cards .card {
-  width: calc(100% / 3 -0.1rem);
+  /*width: calc(100% / 3 -0.1rem);*/
   padding: 2.4rem 0 0 0;
   margin: 0 2.4rem;
   border-radius: 0.9rem;
@@ -392,7 +394,7 @@
 .cards .card .content {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 3.6rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -400,8 +402,8 @@
 }
 
 .cards .card .content .img {
-  height: 18rem;
-  width: 18rem;
+  height: 16rem;
+  width: 16rem;
   margin-bottom: 0.4rem;
   box-shadow: 0 0 1px 1px #14141338;
   border-radius: 50%;
@@ -453,7 +455,7 @@
 .button label {
   height: 3rem;
   width: 24rem;
-  background: #192bb3;
+  background: #4a4a49;
   margin: 0 0.4rem;
   box-shadow: 0 0 1px 1px #14141338;
   border-radius: 0.5rem;
@@ -494,7 +496,6 @@ input[type="radio"] {
 .an-image {
   width: 100%;
   border-radius: 9px;
-  box-shadow: 0 0 2px 1px #14141338;
 }
 
 .an-contenttext {
