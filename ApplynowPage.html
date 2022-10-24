@@ -31,24 +31,27 @@
   <body>
     <header-template></header-template>
     <main>
-      <div class="section-img" id="section-img">
+      <section class="section-img grid--5-cols" id="section-img">
         <div
           class="pcf-img"
           role="img"
           aria-label=" Blue light background with white tones."
-        >
-          &nbsp;
-        </div>
+        ></div>
+        <h1 class="pcf-header">Apply Now</h1>
+        <p class="pcf-subheader">
+          Get in touch now and find out your next great opportunity.
+        </p>
+      </section>
+      <section class="section-background">
         <img
           class="page-background"
           src="sharedcontent/Wave Design .webp"
           alt="blue and green wave
         design working as page background."
         />
-        <h1 class="pcf-header">Apply Now</h1>
-      </div>
+      </section>
 
-      <section class="section-intro">
+      <section class="section-intro container">
         <h2 class="si-subheader">Pre-Contact Form</h2>
         <p class="si-text">
           <img
@@ -70,7 +73,7 @@
           possible.
         </p>
       </section>
-      <section class="section-precontactform">
+      <section class="section-precontactform margin-bottom-md">
         <div class="pcf-part1 grid--2-cols">
           <h2 class="pcf-subtitle pcf-p1-title">Contact Information:</h2>
           <div>
@@ -108,8 +111,8 @@
             </p>
           </div>
         </div>
-        <div class="pcf-part2">
-          <h2 class="pcf-subtitle">Tell us a bit about you:</h2>
+        <div class="pcf-part2 grid--2-cols">
+          <h2 class="pcf-subtitle pcf-p2-title">Tell us a bit about you:</h2>
           <div>
             <label for="applicant-location"
               >Where are you located? (City and Country)</label
@@ -165,9 +168,7 @@
             </select>
           </div>
           <div>
-            <label for="applicant-discovery"
-              >What position would you like to apply to?
-            </label>
+            <label for="applicant-discovery">How did you discover us? </label>
             <select
               id="applicant-discovery"
               name="applicant-discovery"
@@ -188,15 +189,17 @@
         </div>
         <div class="pcf-part3">
           <h2 class="pcf-subtitle">Question or Comments:</h2>
-          <div>
-            <p class="pcf-text">
-              Once we contact you, you will discuss most of your questions, but
-              if you would like, let us know what you are interested to know.
-            </p>
+          <p class="pcf-text">
+            Once we contact you, we'll answer most of your questions about the
+            available position, but if you would like, let us know what you are
+            interested to know.
+          </p>
+          <div class="pcf-textareabox">
             <label for="applicant-questions"
               >Leave your questions or comments here:</label
             >
             <textarea
+              class="pcf-textarea"
               id="applicant-questions"
               name="applicant-questions"
               type="text"
@@ -207,7 +210,7 @@
             ></textarea>
           </div>
         </div>
-        <button class="pcf-submitbtn">Submit Information</button>
+        <a class="pcf-submitbtn" href="#">Submit Information</a>
       </section>
     </main>
     <footer-template></footer-template>

@@ -9,13 +9,6 @@
   max-width: 100%;
   height: 55vh;
   z-index: -1;
-  position: relative;
-}
-
-.page-background {
-  position: absolute;
-  width: 100%;
-  z-index: -2;
 }
 
 .about-header {
@@ -23,10 +16,6 @@
   color: aliceblue;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
-
-  position: absolute;
-  top: 15rem;
-  right: 15rem;
 }
 
 .about-subheader {
@@ -35,12 +24,13 @@
   letter-spacing: 0.2rem;
   line-height: 3.2rem;
   text-align: right;
-
-  position: absolute;
-  top: 25rem;
-  right: 15rem;
 }
 
+.page-background {
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+}
 /** Section Mission and Vision**/
 
 .section-missionvison {
