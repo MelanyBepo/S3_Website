@@ -16,6 +16,10 @@
   color: aliceblue;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+
+  position: absolute;
+  top: 16rem;
+  right: 20rem;
 }
 
 .about-subheader {
@@ -24,6 +28,10 @@
   letter-spacing: 0.2rem;
   line-height: 3.2rem;
   text-align: right;
+
+  position: absolute;
+  right: 20rem;
+  top: 22rem;
 }
 
 .page-background {
@@ -165,7 +173,7 @@
   grid-template-columns: 1fr 0.2fr 1fr;
   grid-template-rows: repeat(6, 1fr);
   column-gap: 2.4rem;
-  padding: 2.4rem 9.6rem;
+  padding: 2.4rem 9.6rem 0rem 9.6rem;
 }
 
 .op-timecard {

@@ -302,6 +302,8 @@
   background-size: cover;
   padding: 2.4rem;
   border-radius: 9px;
+  margin-left: 6.4rem;
+  margin-right: 6.4rem;
 }
 
 .lt-text {
@@ -372,6 +374,9 @@
 .lt-cta-high {
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1;
   letter-spacing: 0.1rem;
+}
+.lt-cta-high-title {
+  font-size: 2.4rem;
 }

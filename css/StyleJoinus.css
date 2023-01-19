@@ -25,8 +25,8 @@
   letter-spacing: 0.4rem;
 
   position: absolute;
-  top: 15rem;
-  right: 25rem;
+  top: 16rem;
+  right: 20rem;
 }
 
 .Joinus-subheader {
@@ -37,8 +37,8 @@
   text-align: right;
   position: absolute;
 
-  top: 23rem;
-  right: 25rem;
+  top: 24rem;
+  right: 20rem;
 }
 
 /** Section Why for SSS**/
@@ -316,11 +316,18 @@
 
 /** Section  Employee Reviews**/
 
+.er-boxholder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
 .er-quotebox {
   display: block;
   padding: 2.4rem auto;
   text-align: center;
-  margin-top: 2.4rem;
+  margin-top: 3.6rem;
+  margin-bottom: 2.4rem;
 }
 
 .er-quote {
@@ -335,7 +342,6 @@
 /*--Carousel---*/
 
 .spbody {
-  min-height: 100vh;
   width: 90%;
   display: flex;
   align-items: center;
@@ -347,7 +353,7 @@
 .spcontainer {
   max-width: 100%;
   overflow: hidden;
-  padding: 1.2rem 0;
+  padding: 1.2rem 0 1.2rem 0;
 }
 
 .spcontainer .main-card {
@@ -362,16 +368,13 @@
 }
 
 .main-card .cards {
-  /*width: calc(100% / 2 -0.1rem);*/
   display: flex;
   gap: 2.4rem;
   justify-content: space-between;
   margin: 0 4.8rem;
-  /*flex-wrap: wrap;*/
 }
 
 .main-card .cards .card {
-  /*width: calc(100% / 3 -0.1rem);*/
   padding: 2.4rem 0 0 0;
   margin: 0 2.4rem;
   border-radius: 0.9rem;
@@ -455,7 +458,7 @@
 .button label {
   height: 3rem;
   width: 24rem;
-  background: #4a4a49;
+  background: #70706f;
   margin: 0 0.4rem;
   box-shadow: 0 0 1px 1px #14141338;
   border-radius: 0.5rem;
@@ -544,7 +547,7 @@ input[type="radio"] {
   background-color: #5eb229;
   padding: 1.2rem;
   border-radius: 9px;
-  width: 25%;
+  width: 20%;
   box-shadow: 0 0 3px 0.1px #141413;
 
   font-size: 3.6rem;

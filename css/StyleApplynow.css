@@ -1,6 +1,5 @@
 .section-img {
   display: grid;
-  grid-template-rows: repeat(4, auto);
   align-items: center;
   justify-content: center;
 }
@@ -94,12 +93,11 @@
   letter-spacing: 0.3px;
   border-bottom: 2px solid;
   border-image: linear-gradient(
-      to right,
-      transparent,
-      rgba(52, 52, 50, 0.205),
-      transparent
-    )
-    1;
+    to right,
+    transparent,
+    rgba(52, 52, 50, 0.205),
+    transparent
+  );
 }
 
 label {
@@ -168,7 +166,7 @@ input[type="number"] {
   gap: 2.4rem;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
 }
 
 .pcf-p2-title {

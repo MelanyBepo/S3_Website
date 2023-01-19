@@ -27,7 +27,7 @@ class HeaderTemp extends HTMLElement {
           <a class="main-nav-link nav-cta" href="FindTalent.html">Find Talent</a>
         </li>
         <li>
-          <a class="main-nav-link nav-cta" href="ApplynowPage.html">Apply Now</a>
+          <a class="main-nav-link nav-cta" href="ApplynowPage.html">Join Our Team</a>
         </li>
       </ul>
     </nav>
