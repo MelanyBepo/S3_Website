@@ -95,7 +95,7 @@ a {
 }
 
 .grid:not(:last-child) {
-  margin-bottom: 9.6rem;
+  margin-bottom: 0;
 }
 
 .grid--2-cols {

@@ -4,7 +4,7 @@
 
 class HeaderTemp extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<header class="header container">
+    this.innerHTML = `<header class="header">
     <a href="index.html">
       <img
         class="SSS-logo"

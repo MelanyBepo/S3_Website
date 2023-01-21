@@ -15,9 +15,9 @@
 }
 
 .home-img {
-  background-image: url(../HomePage/Home\ Call\ center\ Img.webp);
+  background-image: url(../HomePage/Home\ Call\ Center\ 2\ Img.webp);
   background-attachment: fixed;
-  background-position: top left;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 5px 1px #34343282;
@@ -34,6 +34,10 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.603);
+  border-radius: 9px;
+  padding: 1.2rem;
 }
 
 .hero-header {
@@ -63,7 +67,7 @@
 .hero-btn {
   display: flex;
   gap: 2.4rem;
-  padding-left: 2.4rem;
+  justify-content: center;
   list-style: none;
   font-size: 2rem;
 }

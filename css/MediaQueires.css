@@ -1,15 +1,208 @@
-/* --- 4K - 2560px  ---*/
+/* --- 4K - 2560px/ 2320px ---*/
 
-@media (max-width: 160em) {
+@media (min-width: 145em) {
+  /*General CSS*/
+  .container {
+    max-width: 95%;
+  }
+
+  h2 {
+    font-size: 6.2rem;
+  }
+
+  h4 {
+    font-size: 4.8rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+  .decoration {
+    height: 4.8rem;
+    width: 4.8rem;
+  }
+  /*Header and Footer*/
+  .header {
+    padding: 0 40rem 0 40rem;
+  }
+
+  .main-nav {
+    margin-right: 0;
+  }
+
+  .SSS-logo {
+    width: 60%;
+    margin-top: 12rem;
+    margin-left: -6rem;
+  }
+
+  .main-nav-list {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+
+  .logo-column::after {
+    right: -20%;
+  }
+
+  .logo-column::before {
+    right: -140%;
+  }
+
+  .footer-heading {
+    font-size: 4.8rem;
+  }
+
+  .footer-link,
+  .acc-link {
+    font-size: 3.2rem;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  /*Home Page*/
+  .section-hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 24rem;
+  }
+
+  .hero-content {
+    gap: 2.4rem;
+  }
+
+  .hero-header {
+    font-size: 9.8rem;
+    border-image: linear-gradient(#0e1866);
+  }
+
+  .hero-sub-header {
+    width: 100%;
+    font-size: 5.2rem;
+  }
+
+  .hero-description {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 1.8;
+  }
+
+  .hero-btn,
+  .hero-btn-cta:link,
+  .hero-btn-cta:visited {
+    font-size: 3.2rem;
+    padding: 2.4rem;
+  }
+
+  .wwa-subheader,
+  .os-subheader,
+  .why-subheader,
+  .lt-subheader {
+    text-align: center;
+    font-size: 4.4rem;
+    letter-spacing: 0.75px;
+  }
+
+  .os-icon {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .os-icon-text {
+    font-size: 4.6rem;
+  }
+
+  .why-benefit {
+    width: 30%;
+    height: 30%;
+  }
+
+  .why-list-text,
+  .lt-process-button,
+  .lt-process-button:link,
+  .lt-process-button:visited,
+  .lt-cta-high,
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    font-size: 3rem;
+  }
+
+  .lt-cta-high-title {
+    font-size: 4.8rem;
+  }
+
+  .lt-cta {
+    gap: 1.6rem;
+    padding: 3.6rem;
+  }
+
+  /*About Us Page*/
+
+  .aboutus-img {
+    height: 90vh;
+  }
+
+  /*Join Us Page*/
+  .join-img {
+    height: 90vh;
+  }
+
+  /*FAQ Page*/
+  .FAQ-img {
+    height: 95vh;
+  }
+
+  /*Find Talent Page*/
+  .cr-img {
+    height: 95vh;
+  }
+
+  /*Join Our Team Page*/
+  .pcf-img {
+    height: 95vh;
+  }
+
+  /*Privacy Page*/
+  .Privacy-img {
+    height: 95vh;
+  }
 }
-
 /* --- Laptop L - 1440px - Design Level */
 @media (max-width: 90em) {
+  /*Home Page*/
+  .DNSM-statement,
+  .DNSM-statement-nd {
+    margin: 5% 25%;
+  }
 }
-
 /* --- Laptop 1024px  ---*/
 
 @media (max-width: 64em) {
+  /*Header and Footer*/
+  .main-nav {
+    flex-basis: 120rem;
+  }
+
+  .SSS-logo {
+    width: 70%;
+    margin-top: 4rem;
+  }
+
+  /*Home Page*/
+  .section-hero {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+    padding-top: 20rem;
+  }
+
+  .hero-content {
+    gap: 1.2rem;
+  }
+  .hero-sub-header {
+    width: 100%;
+  }
 }
 
 /* --- Tablet 768px- Mobile Navigation Menu Design*/
