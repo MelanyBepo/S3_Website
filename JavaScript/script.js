@@ -64,7 +64,7 @@ btnnavel.addEventListener("click", function () {
 class FooterTemp extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<footer class="section-footer">
-    <div class="container grid grid--3-cols">
+    <div class="footer-container container grid grid--3-cols">
       <div class="logo-column">
         <a href="index.html" class="logo-container">
           <img

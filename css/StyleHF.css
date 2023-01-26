@@ -137,32 +137,12 @@
   padding: 0 1.2rem;
 }
 
-.logo-column::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -48%;
-  background-color: #e7e8e9;
-  box-shadow: 0 0 0 0.5px #e7e8e97e;
-  padding: 0.05rem 16rem;
-  transform: rotate(90deg);
-  border-radius: 3px;
-}
-
-.logo-column::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -165%;
-  background-color: #e7e8e9;
-  box-shadow: 0 0 0 0.5px #e7e8e97e;
-  padding: 0.05rem 16rem;
-  transform: rotate(90deg);
-  border-radius: 3px;
-}
-
 .address-column {
   color: #e7e8e9;
+  border-left: 0.2rem solid rgba(255, 255, 255, 0.753);
+  border-right: 0.2rem solid rgba(255, 255, 255, 0.753);
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 .footer-heading {
   color: #e7e8e9;
