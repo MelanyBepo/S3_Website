@@ -1,25 +1,6 @@
 /* --- 4K - 2560px ---*/
 
 @media (min-width: 145em) {
-  /*General CSS*/
-  .container {
-    max-width: 95%;
-  }
-
-  h2 {
-    font-size: 6.2rem;
-  }
-
-  h4 {
-    font-size: 4.8rem;
-  }
-  p {
-    font-size: 3rem;
-  }
-  .decoration {
-    height: 4.8rem;
-    width: 4.8rem;
-  }
   /*Header and Footer*/
   .header {
     padding: 0 40rem 0 40rem;
@@ -130,12 +111,6 @@
     padding: 3.6rem;
   }
 
-  /*About Us Page*/
-
-  .aboutus-img {
-    height: 90vh;
-  }
-
   /*Join Us Page*/
   .join-img {
     height: 90vh;
@@ -164,37 +139,11 @@
 
 /* --- Laptop L - 1440px - Design Level */
 @media (max-width: 90em) {
-  /*Home Page*/
-  .DNSM-statement,
-  .DNSM-statement-nd {
-    margin: 5% 25%;
-  }
 }
+
 /* --- Laptop 1024px  ---*/
 
 @media (max-width: 64em) {
-  /*Header and Footer*/
-  .container {
-    padding: 3.2rem;
-  }
-
-  .main-nav {
-    flex-basis: 120rem;
-  }
-
-  .SSS-logo {
-    width: 70%;
-    margin-top: 4rem;
-  }
-
-  .page-background {
-    height: 100%;
-  }
-
-  .DNSM-statement,
-  .DNSM-statement-nd {
-    text-align: center;
-  }
   /*Home Page*/
   .section-hero {
     display: grid;
@@ -203,15 +152,18 @@
   }
 
   .home-img {
-    background-size: 130%;
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 1024.webp);
   }
 
   .hero-content {
     gap: 1.2rem;
   }
+  .hero-header {
+    font-size: 4.8rem;
+  }
   .hero-sub-header {
     width: 100%;
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .os-header,
@@ -240,6 +192,8 @@
   .lt-centerimg {
     grid-row: 1/2;
     grid-column: 1/5;
+    width: 60%;
+    justify-self: center;
   }
 
   .lt-content {
@@ -259,126 +213,25 @@
 /* --- Tablet 768px- Mobile Navigation Menu Design*/
 
 @media (max-width: 48em) {
-  /*Main Nav*/
-  .header {
-    position: relative;
-  }
-
-  .btn-mobile-nav {
-    display: block;
-    z-index: 9999;
-    position: absolute;
-    top: 30%;
-    right: 5%;
-  }
-
-  .main-nav {
-    background-image: linear-gradient(#0e1866, #0e186648);
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    box-shadow: -5px 0 10px 0 #0e186680;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 6.4rem 7rem;
-
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 0;
-
-    transition: all 0.5s ease-in;
-
-    pointer-events: none;
-    visibility: hidden;
-
-    transform: translateX(100%);
-  }
-
-  .main-nav-list {
-    flex-direction: column;
-    gap: 4.8rem;
-  }
-
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    font-size: 3.6rem;
-    color: #f0f8ff;
-  }
-
-  .nav-open .main-nav {
-    opacity: 1;
-
-    pointer-events: auto;
-    visibility: visible;
-
-    transform: translateX(0);
-    backdrop-filter: blur(5px);
-  }
-
-  .nav-open .btn-nav-icon[name="close-icon"] {
-    display: block;
-  }
-
-  .nav-open .btn-nav-icon[name="menu-icon"] {
-    display: none;
-  }
-
-  /*Header and Footer*/
-  .container {
-    width: 90%;
-  }
-
-  .SSS-logo {
-    width: 22%;
-    position: absolute;
-    left: 1.2rem;
-    top: -1.6rem;
-    margin-top: 0;
-  }
-
-  .page-background {
-    height: 100%;
-  }
-
-  .footer-container {
-    column-gap: 3.2rem;
-  }
-  .address-column {
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
-  }
-  .address {
-    font-size: 1.2rem;
-  }
-
-  .DNSM-header {
-    font-size: 3rem;
-  }
-  .DNSM-statement,
-  .DNSM-statement-nd {
-    text-align: center;
-  }
-
   /*Home Page*/
 
   .section-hero {
-    height: 70vh;
+    height: 50vh;
     align-content: center;
     justify-content: center;
     padding: 0;
   }
   .home-img {
-    background-size: cover;
-    background-position: top center;
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 768px.webp);
+    background-attachment: local;
   }
 
   .hero-header {
     font-size: 5.2rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
   }
 
   .section-whoweare {
@@ -434,13 +287,199 @@
   .main-card .cards .card {
     width: 100%;
   }*/
+
+  /*Home Page*/
+
+  .section-hero {
+    height: 35vh;
+    display: flex;
+  }
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 425px.webp);
+    background-attachment: local;
+    background-size: cover;
+  }
+
+  .hero-content {
+    width: 75%;
+    height: 90%;
+    gap: 0.1rem;
+  }
+  .hero-header {
+    font-size: 2rem;
+  }
+  .hero-sub-header {
+    font-size: 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    max-width: 80%;
+  }
+  .hero-btn {
+    font-size: 1.2rem;
+  }
+
+  .section-whoweare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wwa-image {
+    margin-top: 1.2rem;
+  }
+  .os-header,
+  .why-header,
+  .lt-header {
+    margin: 0;
+  }
+
+  .wwa-subheader,
+  .os-subheader,
+  .why-subheader,
+  .lt-subheader {
+    font-size: 1.6rem;
+  }
+
+  .os-gridmedia {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .os-type-rates {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: none;
+  }
+  .os-rate {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+
+  .cs-color,
+  .ss-color,
+  .bm-color {
+    border-radius: 9px;
+  }
+
+  .cs-color {
+    margin-top: 3.2rem;
+  }
+  .ss-color {
+    margin-top: 4.8rem;
+  }
+
+  .bm-color {
+    margin-top: 4.8rem;
+  }
+  .os-icon {
+    width: 7.4rem;
+    height: 7.4rem;
+  }
+  .os-service-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .os-card-header {
+    font-size: 2rem;
+  }
+
+  .section-whychoosesss {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .lt-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0.8rem;
+  }
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 45%;
+    font-size: 2rem;
+  }
+  .lt-cta-high-title {
+    font-size: 2rem;
+  }
 }
 
 /* --- Mobile M 375px  ---*/
 @media (max-width: 23em) {
+  /*Home Page*/
+
+  .section-hero {
+    height: 45vh;
+    display: flex;
+  }
+
+  .hero-content {
+    width: 75%;
+    height: 75%;
+    gap: 0.1rem;
+  }
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 375px.webp);
+    background-attachment: local;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .os-type-rates {
+    gap: 6rem;
+  }
+
+  .os-type-rates {
+    gap: 9.6rem;
+  }
+
+  .ss-color {
+    margin-top: 6.4em;
+  }
+
+  .bm-color {
+    margin-top: 2.4rem;
+  }
+
+  .lt-centerimg {
+    width: 90%;
+  }
+
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 90%;
+  }
 }
 
 /* --- Mobile S 320px  ---*/
 
 @media (max-width: 20em) {
+  /*Home Page*/
+
+  .hero-content {
+    width: 85%;
+    height: 80%;
+    gap: 0.1rem;
+  }
+
+  .os-type-rates {
+    gap: 8rem;
+  }
+
+  .cs-color {
+    margin-top: 6.4rem;
+  }
+  .ss-color {
+    margin-top: 9.6rem;
+  }
+  .bm-color {
+    margin-top: 6.4rem;
+  }
 }

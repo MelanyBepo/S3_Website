@@ -1,0 +1,295 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  .aboutus-img {
+    height: 90vh;
+  }
+
+  .about-header {
+    font-size: 8.6rem;
+    top: 24rem;
+  }
+
+  .about-subheader {
+    font-size: 4.4rem;
+    top: 36rem;
+    line-height: 6rem;
+  }
+  .ov-card {
+    justify-self: stretch;
+    align-self: stretch;
+  }
+  .op-day {
+    font-size: 4rem;
+  }
+  .mtt-subheader {
+    font-size: 4rem;
+  }
+  .mtt-title2,
+  .mtt-name2 {
+    font-size: 2.4rem;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+
+/* --- Laptop 1024px  ---*/
+@media (max-width: 64em) {
+  .aboutus-img {
+    height: 55vh;
+    background-image: url(../PageHeadermedia/Join\ us\ team\ 1024.webp);
+    background-position: center;
+  }
+
+  .about-header {
+    top: 24rem;
+    right: 8rem;
+    background-color: #1d1d1bab;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .about-subheader {
+    top: 32rem;
+    right: 8rem;
+    line-height: 3rem;
+    background-color: #1d1d1bab;
+    border-radius: 9px;
+    padding: 1.2rem;
+  }
+
+  .section-missionvison {
+    column-gap: 2.4rem;
+  }
+
+  .ov-header {
+    margin: 0 24rem;
+  }
+  .ov-card {
+    justify-self: stretch;
+    align-self: stretch;
+  }
+
+  .op-timelineimg {
+    width: 170%;
+  }
+
+  .mtt-column2 {
+    gap: 1.2rem;
+  }
+
+  .mtt-title2,
+  .mtt-name2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  .aboutus-img {
+    height: 45vh;
+    background-image: url(../PageHeadermedia/Join\ us\ team\ 768.webp);
+    background-position: center;
+  }
+  .about-header {
+    top: 30rem;
+    right: 4rem;
+  }
+
+  .about-subheader {
+    top: 38rem;
+    right: 4rem;
+  }
+
+  .section-missionvison {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .ov-header,
+  .op-header,
+  .mtt-header {
+    margin: 0 16rem;
+  }
+
+  .ov-cardholder {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 2.4rem 6.4rem;
+  }
+
+  .ov-card {
+    padding: 1.2rem 2.4rem;
+  }
+  .op-timeline {
+    padding: 1.2rem 2.4rem 0rem 2.4rem;
+  }
+  .op-timelineimg {
+    width: 250%;
+  }
+
+  .mmt-grid {
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .mtt-c1-img {
+    width: 40%;
+  }
+  /*join us carousel
+  .main-card .cards .card {
+    width: calc(100% / 2 -10px);
+    margin: 20px 0 10px 0;
+  }*/
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  .aboutus-img {
+    height: 45vh;
+    background-image: url(../PageHeadermedia/Join\ us\ team\ 425.webp);
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: top;
+  }
+
+  .about-header {
+    top: 36rem;
+    right: 6.2rem;
+    background-color: #1d1d1b00;
+    color: #1d1d1b;
+  }
+
+  .about-subheader {
+    top: 42rem;
+    text-align: center;
+    background-color: #1d1d1b00;
+    color: #1d1d1b;
+  }
+
+  .ov-header,
+  .op-header,
+  .mtt-header {
+    margin: 0 4rem;
+  }
+  .ov-cardholder {
+    padding: 1.2rem;
+  }
+  .op-timeline {
+    grid-template-columns: 1fr 2fr;
+    gap: 0;
+  }
+  .op-timecard {
+    padding: 0;
+  }
+
+  .op-timelineimg {
+    grid-column: 1/2;
+    grid-row: 1/7;
+    width: 90%;
+  }
+
+  .op-day-1,
+  .op-day-5,
+  .op-day-30 {
+    padding-right: 0;
+    grid-column: 2/3;
+    text-align: left;
+  }
+  .op-day-2,
+  .op-day-20,
+  .op-day-60 {
+    padding-left: 0;
+    grid-column: 2/3;
+  }
+
+  .mtt-c1-img {
+    width: 55%;
+  }
+  .mtt-column2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*join us carousel
+  .main-card .cards .card {
+    width: 100%;
+  }*/
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .aboutus-img {
+    height: 42vh;
+    background-image: url(../PageHeadermedia/Join\ us\ team\ 375.webp);
+  }
+  .about-header {
+    top: 32rem;
+    right: 7rem;
+    background-color: #1d1d1b00;
+    color: #1d1d1b;
+    font-size: 3.6rem;
+  }
+
+  .about-subheader {
+    top: 36rem;
+    left: 3rem;
+    text-align: center;
+    background-color: #1d1d1b00;
+    color: #1d1d1b;
+    font-size: 2.2rem;
+  }
+  .ov-header,
+  .op-header,
+  .mtt-header {
+    margin: 0 0.2rem;
+  }
+
+  .op-timelineimg {
+    width: 110%;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .aboutus-img {
+    height: 38vh;
+    background-image: url(../PageHeadermedia/Join\ us\ team\ 320.webp);
+  }
+  .about-header {
+    top: 30rem;
+    right: 5rem;
+    font-size: 3.2rem;
+  }
+
+  .about-subheader {
+    top: 34rem;
+    left: 4rem;
+    text-align: center;
+    background-color: #1d1d1b00;
+    color: #1d1d1b;
+    font-size: 1.8rem;
+  }
+  .ov-card-head {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .op-timeline {
+    padding: 0;
+    margin-top: 0.8rem;
+  }
+  .op-timelineimg {
+    width: 100%;
+  }
+
+  .mmt-grid {
+    padding: 1.6rem;
+  }
+}
