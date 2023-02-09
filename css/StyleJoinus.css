@@ -18,7 +18,7 @@
   z-index: -2;
 }
 
-.Joinus-header {
+.joinus-header {
   font-size: 5.2rem;
   color: #1d1d1b;
   text-transform: uppercase;
@@ -29,7 +29,7 @@
   right: 20rem;
 }
 
-.Joinus-subheader {
+.joinus-subheader {
   font-size: 2.4rem;
   color: #1d1d1b;
   letter-spacing: 0.2rem;
@@ -194,7 +194,7 @@
 .hwr-timelineimg {
   display: block;
   margin: auto;
-  max-width: 120%;
+  width: 120%;
 
   grid-column: 2/3;
   grid-row: 1/6;
@@ -550,7 +550,7 @@ input[type="radio"] {
   width: 20%;
   box-shadow: 0 0 3px 0.1px #141413;
 
-  font-size: 3.6rem;
+  font-size: 3rem;
   color: #e7e8e9;
   font-weight: 600;
   text-align: center;

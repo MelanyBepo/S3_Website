@@ -1,0 +1,31 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+}
