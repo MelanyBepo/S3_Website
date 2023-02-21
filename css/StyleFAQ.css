@@ -6,7 +6,7 @@
 }
 
 .FAQ-img {
-  background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions.webp);
+  background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions\ 1500.webp);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -29,11 +29,16 @@
 
 .FAQ-header1 {
   color: aliceblue;
-  font-size: 4.8rem;
+  font-size: 6.4rem;
   line-height: 1.8;
+  background-color: #1d1d1bab;
+  border-radius: 9px;
+  display: block;
+  padding: 0.8rem;
+  text-align: center;
 
   z-index: 1;
-  grid-column: 2/4;
+  grid-column: 2/5;
   grid-row: 2;
 }
 

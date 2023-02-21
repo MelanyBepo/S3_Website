@@ -52,6 +52,11 @@
   .copyright {
     font-size: 2rem;
   }
+
+  .social-icon {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
 }
 
 /* --- Laptop L - 1440px - Design Level */
