@@ -1,0 +1,128 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  .tp-header {
+    font-size: 6.2rem;
+  }
+  .tp-subheader,
+  .tp-subheader2 {
+    font-size: 3rem;
+  }
+
+  .tp-FAQpage,
+  .tp-FAQPage:link,
+  .tp-FAQPage:visited {
+    font-size: 5.2rem;
+  }
+}
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  .tp-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 1024.webp);
+    height: 75vh;
+  }
+
+  .tp-img2 {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 1024.webp);
+    height: 75vh;
+  }
+  .tp-header {
+    font-size: 4.4rem;
+  }
+
+  .tp-thankyoumess {
+    left: 10rem;
+    right: 10rem;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  .tp-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 768.webp);
+    height: 65vh;
+  }
+
+  .tp-img2 {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 768.webp);
+    height: 65vh;
+  }
+
+  .tp-header {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  .tp-subheader,
+  .tp-subheader2 {
+    font-size: 2.4rem;
+  }
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  .tp-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 425.webp);
+    height: 58vh;
+  }
+
+  .tp-img2 {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 425.webp);
+    height: 58vh;
+  }
+
+  .tp-thankyoumess {
+    top: 20rem;
+    left: 4rem;
+    right: 4rem;
+  }
+  .tp-header {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .tp-subheader,
+  .tp-subheader2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .tp-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 375.webp);
+    height: 55vh;
+  }
+
+  .tp-img2 {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 375.webp);
+    height: 60vh;
+  }
+
+  .tp-thankyoumess {
+    top: 18rem;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .tp-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 320.webp);
+  }
+
+  .tp-img2 {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 320.webp);
+    height: 65vh;
+  }
+
+  .tp-thankyoumess {
+    top: 16rem;
+  }
+}

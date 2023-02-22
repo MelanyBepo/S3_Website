@@ -1,0 +1,171 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  .cr-header {
+    top: 20rem;
+    left: 2rem;
+    right: 2rem;
+    font-size: 6.2rem;
+    text-align: center;
+  }
+
+  .cr-subheader {
+    top: 30rem;
+    left: 2rem;
+    right: 2rem;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .section-contactrequest {
+    max-width: 100%;
+  }
+
+  .cr-subtitle {
+    font-size: 3rem;
+  }
+  label,
+  input,
+  select,
+  .cr-subnote,
+  textarea,
+  .cr-text {
+    font-size: 2.4rem;
+  }
+
+  .cr-submitbtn,
+  .cr-submitbtn:active,
+  .cr-submitbtn:link {
+    font-size: 3.6rem;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  .cr-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 1024.webp);
+    height: 55vh;
+  }
+
+  .cr-header {
+    top: 20rem;
+    font-size: 5.2rem;
+  }
+
+  .cr-subheader {
+    top: 30rem;
+  }
+
+  .si-subheader {
+    margin: 0 24rem;
+  }
+  .section-contactrequest {
+    margin: 1.2rem 8rem;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  .cr-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 768.webp);
+    height: 45vh;
+  }
+
+  .cr-header {
+    top: 10rem;
+    font-size: 4.4rem;
+  }
+
+  .cr-subheader {
+    top: 20rem;
+  }
+
+  .si-subheader {
+    margin: 0 14rem;
+  }
+
+  .section-contactrequest {
+    margin: 1.2rem 8rem;
+    padding: 2.4rem 1rem;
+  }
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  .cr-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 425.webp);
+    height: 35vh;
+  }
+
+  .cr-header {
+    top: 6rem;
+    font-size: 3.6rem;
+  }
+
+  .cr-subheader {
+    top: 12rem;
+    font-size: 2rem;
+  }
+
+  .si-subheader {
+    font-size: 2.4rem;
+    margin: 0 4rem;
+  }
+
+  .section-contactrequest {
+    margin: 1.2rem 2rem;
+    padding: 2.4rem 1rem;
+    text-align: center;
+  }
+
+  .cr-part1,
+  .cr-part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .cr-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 375.webp);
+    height: 30vh;
+  }
+
+  .cr-header {
+    top: 4rem;
+    font-size: 3.4rem;
+  }
+
+  .cr-subheader {
+    top: 10rem;
+    font-size: 1.8rem;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .cr-img {
+    background-image: url(../Findtalentpage/Green\ light\ Background\ 320.webp);
+  }
+  .cr-header {
+    top: 3rem;
+  }
+
+  .cr-subheader {
+    top: 9rem;
+  }
+
+  .si-subheader {
+    font-size: 2.4rem;
+    margin: 0 2rem;
+  }
+}

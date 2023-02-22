@@ -1,0 +1,175 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  .pcf-header {
+    top: 22rem;
+    left: 2rem;
+    right: 2rem;
+    font-size: 6.2rem;
+    text-align: center;
+  }
+
+  .pcf-subheader {
+    top: 30rem;
+    left: 2rem;
+    right: 2rem;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .section-precontactform {
+    max-width: 100%;
+  }
+
+  .pcf-subtitle {
+    font-size: 3rem;
+  }
+  label,
+  input,
+  select,
+  .pcf-subnote,
+  textarea,
+  .pcf-text {
+    font-size: 2.4rem;
+  }
+
+  .pcf-submitbtn,
+  .pcf-submitbtn:active,
+  .pcf-submitbtn:link {
+    font-size: 3.6rem;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  .pcf-img {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 1024.webp);
+    height: 55vh;
+  }
+
+  .pcf-header {
+    top: 20rem;
+    font-size: 5.2rem;
+  }
+
+  .cpf-subheader {
+    top: 30rem;
+  }
+
+  .si-subheader {
+    margin: 0 24rem;
+  }
+  .section-precontactform {
+    margin: 1.2rem 8rem;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  .pcf-img {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 768.webp);
+    height: 45vh;
+  }
+
+  .pcf-header {
+    top: 10rem;
+    font-size: 4.4rem;
+  }
+
+  .pcf-subheader {
+    top: 20rem;
+  }
+
+  .si-subheader {
+    margin: 0 14rem;
+  }
+
+  .section-precontactform {
+    margin: 1.2rem 8rem;
+    padding: 2.4rem 1rem;
+  }
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  .pcf-img {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 425.webp);
+    height: 30vh;
+  }
+
+  .pcf-header {
+    top: 6rem;
+    font-size: 3.6rem;
+  }
+
+  .pcf-subheader {
+    top: 12rem;
+    font-size: 2rem;
+  }
+
+  .si-subheader {
+    font-size: 2.4rem;
+    margin: 0 4rem;
+  }
+
+  .section-precontactform {
+    margin: 1.2rem 2rem;
+    padding: 2.4rem 1rem;
+    text-align: center;
+  }
+
+  .pcf-part1,
+  .pcf-part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .pcf-img {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 375.webp);
+    height: 28vh;
+  }
+
+  .pcf-header {
+    top: 4rem;
+    font-size: 3.4rem;
+  }
+
+  .pcf-subheader {
+    top: 10rem;
+    font-size: 1.8rem;
+  }
+  .si-subheader {
+    margin: 0 1rem;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .pcf-img {
+    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 320.webp);
+    height: 26vh;
+  }
+  .pcf-header {
+    top: 3rem;
+  }
+
+  .pcf-subheader {
+    top: 9rem;
+  }
+
+  .si-subheader {
+    font-size: 2.4rem;
+    margin: 0 0.8rem;
+  }
+}

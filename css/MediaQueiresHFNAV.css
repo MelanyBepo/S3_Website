@@ -75,7 +75,7 @@
   }
 
   .main-nav {
-    flex-basis: 120rem;
+    flex-basis: 140rem;
   }
 
   .SSS-logo {
@@ -188,7 +188,7 @@
   }
 
   .footer-container {
-    column-gap: 3.2rem;
+    column-gap: 2.4rem;
     gap: 1.6rem;
   }
 
@@ -200,7 +200,7 @@
     font-size: 1.2rem;
   }
   .copyright {
-    padding: 0;
+    padding: 1.2rem;
   }
   .DNSM-header {
     font-size: 3rem;
