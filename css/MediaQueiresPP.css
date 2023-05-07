@@ -1,0 +1,113 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  .privacy-img {
+    height: 75vh;
+  }
+
+  ul {
+    font-size: 3rem;
+  }
+
+  .p-header1 {
+    font-size: 8rem;
+  }
+  .p-header3 {
+    font-size: 5.2rem;
+  }
+
+  .p-signature {
+    font-size: 3rem;
+  }
+
+  .scroll-button,
+  .scroll-button:link,
+  .scroll-button:visited {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .arrow-up {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+
+  .main-nav-link,
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    color: aliceblue;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  .privacy-img {
+    background-image: url(../PageHeadermedia/Privacy\ Policy\ 1024.webp);
+    height: 55vh;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  .privacy-img {
+    background-image: url(../PageHeadermedia/Privacy\ Policy\ 768.webp);
+    height: 35vh;
+
+    background-attachment: scroll;
+    background-position: top;
+  }
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  .privacy-img {
+    background-image: url(../PageHeadermedia/Privacy\ Policy\ 425.webp);
+    height: 25vh;
+  }
+
+  ul {
+    font-size: 1.2rem;
+  }
+
+  .p-header1 {
+    font-size: 3rem;
+  }
+
+  .p-header2 {
+    margin-top: 1.2rem;
+  }
+  .p-header3 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+  .p-header4 {
+    text-align: center;
+  }
+  .p-signature {
+    font-size: 1.2rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .privacy-img {
+    background-image: url(../PageHeadermedia/Privacy\ Policy\ 375.webp);
+    height: 20vh;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .privacy-img {
+    background-image: url(../PageHeadermedia/Privacy\ Policy\ 320.webp);
+    height: 20vh;
+  }
+}

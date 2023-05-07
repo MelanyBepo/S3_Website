@@ -1,0 +1,485 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  /*Header and Footer*/
+  .header {
+    padding: 0 40rem 0 40rem;
+  }
+
+  .main-nav {
+    margin-right: 0;
+  }
+
+  .SSS-logo {
+    width: 60%;
+    margin-top: 12rem;
+    margin-left: -6rem;
+  }
+
+  .main-nav-list {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+
+  .footer-heading {
+    font-size: 4.8rem;
+  }
+
+  .footer-link,
+  .acc-link {
+    font-size: 3.2rem;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  /*Home Page*/
+  .section-hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 24rem;
+  }
+
+  .hero-content {
+    gap: 2.4rem;
+  }
+
+  .hero-header {
+    font-size: 9.8rem;
+    border-image: linear-gradient(#0e1866);
+  }
+
+  .hero-sub-header {
+    width: 100%;
+    font-size: 5.2rem;
+  }
+
+  .hero-description {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 1.8;
+  }
+
+  .hero-btn,
+  .hero-btn-cta:link,
+  .hero-btn-cta:visited {
+    font-size: 3.2rem;
+    padding: 2.4rem;
+  }
+
+  .wwa-subheader,
+  .os-subheader,
+  .why-subheader,
+  .lt-subheader {
+    text-align: center;
+    font-size: 4.4rem;
+    letter-spacing: 0.75px;
+  }
+
+  .os-icon {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .os-icon-text {
+    font-size: 4.6rem;
+  }
+
+  .why-benefit {
+    width: 30%;
+    height: 30%;
+  }
+
+  .why-list-text,
+  .lt-process-button,
+  .lt-process-button:link,
+  .lt-process-button:visited,
+  .lt-cta-high,
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    font-size: 3rem;
+  }
+
+  .lt-cta-high-title {
+    font-size: 4.8rem;
+  }
+
+  .lt-cta {
+    gap: 1.6rem;
+    padding: 3.6rem;
+  }
+
+  /*Join Us Page*/
+  .join-img {
+    height: 90vh;
+  }
+
+  /*FAQ Page*/
+  .FAQ-img {
+    height: 95vh;
+  }
+
+  /*Find Talent Page*/
+  .cr-img {
+    height: 95vh;
+  }
+
+  /*Join Our Team Page*/
+  .pcf-img {
+    height: 95vh;
+  }
+
+  /*Privacy Page*/
+  .Privacy-img {
+    height: 95vh;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+}
+
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  /*Home Page*/
+  .section-hero {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+    padding-top: 20rem;
+  }
+
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 1024.webp);
+  }
+
+  .hero-content {
+    gap: 1.2rem;
+  }
+  .hero-header {
+    font-size: 4.8rem;
+  }
+  .hero-sub-header {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .os-header,
+  .lt-header,
+  .why-header {
+    margin: 0 20rem;
+  }
+
+  .section-whychoosesss {
+    align-items: center;
+  }
+  .why-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .why-list-text {
+    width: 70%;
+  }
+
+  .lt-container {
+    grid-template-rows: repeat(3fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .lt-centerimg {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    width: 60%;
+    justify-self: center;
+  }
+
+  .lt-content {
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+  .lt-timeline {
+    grid-column: 3/5;
+  }
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 25%;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  /*Home Page*/
+
+  .section-hero {
+    height: 50vh;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 768px.webp);
+    background-attachment: local;
+  }
+
+  .hero-header {
+    font-size: 5.2rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+
+  .section-whoweare {
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+  }
+  .wwa-content {
+    grid-row: 1/2;
+    grid-column: 1/3;
+  }
+
+  .wwa-image {
+    grid-column: 1/3;
+  }
+
+  .os-service-cards {
+    gap: 1.2rem;
+  }
+
+  .why-header {
+    margin: 0 10rem;
+  }
+  .why-list {
+    padding: 0;
+  }
+
+  .why-subheader {
+    margin-bottom: 2.4rem;
+  }
+
+  .lt-cta {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 35%;
+  }
+
+  /*join us carousel
+  .main-card .cards .card {
+    width: calc(100% / 2 -10px);
+    margin: 20px 0 10px 0;
+  }*/
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  /*join us carousel
+  .main-card .cards .card {
+    width: 100%;
+  }*/
+
+  /*Home Page*/
+
+  .section-hero {
+    height: 35vh;
+    display: flex;
+  }
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 425px.webp);
+    background-attachment: local;
+    background-size: cover;
+  }
+
+  .hero-content {
+    width: 75%;
+    height: 90%;
+    gap: 0.1rem;
+  }
+  .hero-header {
+    font-size: 2rem;
+  }
+  .hero-sub-header {
+    font-size: 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    max-width: 80%;
+  }
+  .hero-btn {
+    font-size: 1.2rem;
+  }
+
+  .section-whoweare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wwa-image {
+    margin-top: 1.2rem;
+  }
+  .os-header,
+  .why-header,
+  .lt-header {
+    margin: 0;
+  }
+
+  .wwa-subheader,
+  .os-subheader,
+  .why-subheader,
+  .lt-subheader {
+    font-size: 1.6rem;
+  }
+
+  .os-gridmedia {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .os-type-rates {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: none;
+  }
+  .os-rate {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+
+  .cs-color,
+  .ss-color,
+  .bm-color {
+    border-radius: 9px;
+  }
+
+  .cs-color {
+    margin-top: 3.2rem;
+  }
+  .ss-color {
+    margin-top: 4.8rem;
+  }
+
+  .bm-color {
+    margin-top: 4.8rem;
+  }
+  .os-icon {
+    width: 7.4rem;
+    height: 7.4rem;
+  }
+  .os-service-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .os-card-header {
+    font-size: 2rem;
+  }
+
+  .section-whychoosesss {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .lt-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0.8rem;
+  }
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 45%;
+    font-size: 2rem;
+  }
+  .lt-cta-high-title {
+    font-size: 2rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  /*Home Page*/
+
+  .section-hero {
+    height: 45vh;
+    display: flex;
+  }
+
+  .hero-content {
+    width: 75%;
+    height: 75%;
+    gap: 0.1rem;
+  }
+  .home-img {
+    background-image: url(../HomePage/Home\ Call\ Center\ 2\ 375px.webp);
+    background-attachment: local;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .os-type-rates {
+    gap: 6rem;
+  }
+
+  .os-type-rates {
+    gap: 9.6rem;
+  }
+
+  .ss-color {
+    margin-top: 6.4em;
+  }
+
+  .bm-color {
+    margin-top: 2.4rem;
+  }
+
+  .lt-centerimg {
+    width: 90%;
+  }
+
+  .lt-cta-button,
+  .lt-cta-button:link,
+  .lt-cta-button:visited {
+    width: 90%;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  /*Home Page*/
+
+  .hero-content {
+    width: 85%;
+    height: 80%;
+    gap: 0.1rem;
+  }
+
+  .os-type-rates {
+    gap: 8rem;
+  }
+
+  .cs-color {
+    margin-top: 6.4rem;
+  }
+  .ss-color {
+    margin-top: 9.6rem;
+  }
+  .bm-color {
+    margin-top: 6.4rem;
+  }
+}

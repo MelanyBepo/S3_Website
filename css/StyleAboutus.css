@@ -1,19 +1,329 @@
 .aboutus-img {
-  background-image: url(../HomePage/Home\ Call\ center\ Img.webp);
+  background-image: url(../PageHeadermedia/Join\ us\ team.webp);
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 5px 1px #34343282;
   border-radius: 1px;
   max-width: 100%;
-  height: 45vw;
+  height: 55vh;
   z-index: -1;
-  position: relative;
+}
+
+.about-header {
+  font-size: 5.2rem;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+
+  position: absolute;
+  top: 16rem;
+  right: 20rem;
+}
+
+.about-subheader {
+  font-size: 2.4rem;
+  color: aliceblue;
+  letter-spacing: 0.2rem;
+  line-height: 3.2rem;
+  text-align: right;
+
+  position: absolute;
+  right: 20rem;
+  top: 22rem;
 }
 
 .page-background {
   position: absolute;
   width: 100%;
   z-index: -2;
+}
+/** Section Mission and Vision**/
+
+.section-missionvison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9.6rem;
+  margin-top: 3.6rem;
+}
+
+.mv-img {
+  width: 100%;
+  height: 100%;
+}
+
+.mv-img-vision {
+  grid-column: -3/-2;
+  grid-row: 2/3;
+}
+
+.mv-vision {
+  grid-column: -2/-1;
+}
+
+.mv-card {
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 2.4rem;
+  background-image: url(../Aboutuspage/Blue\ light\ background.webp);
+}
+.mv-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+}
+
+.mv-header-m,
+.op-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+}
+.mv-text,
+.ov-text,
+.mtt-text {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 0.4rem;
+}
+
+/** Section Our Value**/
+.ov-header,
+.mtt-header {
+  color: #132408;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  margin: 0 36rem;
+}
+
+.ov-cardholder {
+  display: grid;
+  gap: 1.2rem;
+  padding: 3.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ov-card-icon {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+
+.ov-subheader {
+  margin: 0;
+}
+
+.ov-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0, 1 auto;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 0.8rem;
+}
+
+.ov-card:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.oc-c-1 {
+  background-color: #bfe0a9;
+}
+
+.oc-c-2 {
+  background-color: #f8f8f8;
+}
+
+.oc-c-3 {
+  background-color: #a7b1ff;
+}
+
+.ov-card-head {
+  display: flex;
+  align-items: center;
+}
+
+/** Section Our Process**/
+
+.op-header {
+  margin: 0 36rem;
+}
+
+.op-timeline {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  column-gap: 2.4rem;
+  padding: 2.4rem 9.6rem 0rem 9.6rem;
+}
+
+.op-timecard {
+  padding: 1.2rem;
+}
+
+.op-timecard-back1:hover {
+  transition: all 1s ease-in-out;
+  background-color: #bfe0a9;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 1.2rem;
+}
+
+.op-timecard-back2:hover {
+  transition: all 1s ease-in-out;
+  background-color: #a7b1ff;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 1.2rem;
+}
+
+.op-timelineimg {
+  grid-column: 2/3;
+  grid-row: 1/7;
+
+  width: 75%;
+  align-self: center;
+  justify-self: center;
+}
+
+.op-day-1 {
+  text-align: right;
+  justify-self: top;
+}
+
+.op-day-2 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  text-align: left;
+  align-self: end;
+}
+
+.op-day-5 {
+  grid-row: 3/4;
+  justify-self: top;
+  text-align: right;
+}
+
+.op-day-20 {
+  grid-row: 4/5;
+  grid-column: 3/4;
+  align-self: center;
+}
+
+.op-day-30 {
+  grid-row: 5/6;
+  align-self: top;
+  text-align: right;
+}
+
+.op-day-60 {
+  grid-row: 6/7;
+  grid-column: 3/4;
+  align-self: top;
+}
+
+/** Section Meet The Team**/
+.mtt-subheader {
+  text-align: center;
+  font-size: 2.4rem;
+  letter-spacing: 0.75px;
+  margin-top: 1.2rem;
+}
+
+.mmt-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr;
+  column-gap: 2.4rem;
+  padding: 2.4rem 6.4rem;
+}
+
+.mtt-column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.mtt-c1-card {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.mtt-c1-img {
+  width: 30%;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  transition: all 0.4s;
+}
+.mtt-c1-img:hover {
+  transform: scale(1.3);
+}
+
+.mtt-positiontag {
+  align-self: center;
+  background-color: aliceblue;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+  padding: 2.4rem;
+  text-align: center;
+}
+
+.mtt-column2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+
+.mtt-c2-img {
+  max-width: 100%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+}
+
+.mtt-c2-card:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.mtt-positiontag2 {
+  text-align: center;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  box-shadow: 0 0 2px 1px #14141321;
+}
+
+.mtt-title {
+  margin-bottom: 0;
+}
+
+.mtt-title2 {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+.mtt-name2 {
+  font-size: 1.2rem;
 }

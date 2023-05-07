@@ -1,0 +1,308 @@
+/* --- 4K - 2560px ---*/
+
+@media (min-width: 145em) {
+  /*General CSS*/
+  .container {
+    max-width: 95%;
+  }
+
+  h2 {
+    font-size: 6.2rem;
+  }
+
+  h4 {
+    font-size: 4.8rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+  .decoration {
+    height: 4.8rem;
+    width: 4.8rem;
+  }
+  /*Header and Footer*/
+  .header {
+    padding: 0 40rem 0 40rem;
+  }
+
+  .main-nav {
+    margin-right: 0;
+  }
+
+  .SSS-logo {
+    width: 60%;
+    margin-top: 12rem;
+    margin-left: -6rem;
+  }
+
+  .main-nav-list {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+
+  .footer-heading {
+    font-size: 4.8rem;
+  }
+
+  .footer-link,
+  .acc-link {
+    font-size: 3.2rem;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  .social-icon {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+}
+
+/* --- Laptop L - 1440px - Design Level */
+@media (max-width: 90em) {
+  .DNSM-statement,
+  .DNSM-statement-nd {
+    margin: 5% 25%;
+  }
+}
+/* --- Laptop 1024px  ---*/
+
+@media (max-width: 64em) {
+  /*Header and Footer*/
+  .container {
+    padding: 3.2rem;
+  }
+
+  .main-nav {
+    flex-basis: 140rem;
+  }
+
+  .SSS-logo {
+    width: 70%;
+    margin-top: 4rem;
+  }
+
+  .page-background {
+    height: 100%;
+  }
+
+  .DNSM-statement,
+  .DNSM-statement-nd {
+    text-align: center;
+  }
+}
+
+/* --- Tablet 768px- Mobile Navigation Menu Design*/
+
+@media (max-width: 48em) {
+  /*Main Nav*/
+  .header {
+    position: relative;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+  }
+
+  .main-nav {
+    background-image: linear-gradient(#0e1866, #0e186659);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: -5px 0 10px 0 #0e186680;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6.4rem 7rem;
+    font-weight: 500;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+
+    transition: all 0.5s ease-in;
+
+    pointer-events: none;
+    visibility: hidden;
+
+    transform: translateX(100%);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.6rem;
+    color: #f0f8ff;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+
+    pointer-events: auto;
+    visibility: visible;
+
+    transform: translateX(0);
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-open .btn-nav-icon[name="close-icon"] {
+    display: block;
+  }
+
+  .nav-open .btn-nav-icon[name="menu-icon"] {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    top: 30%;
+    right: 15%;
+  }
+  /*Header and Footer*/
+  .container {
+    width: 90%;
+  }
+
+  .SSS-logo {
+    width: 22%;
+    position: absolute;
+    left: 1.2rem;
+    top: -1.6rem;
+    margin-top: 0;
+  }
+
+  .page-background {
+    height: 100%;
+  }
+
+  .footer-container {
+    column-gap: 2.4rem;
+    gap: 1.6rem;
+  }
+
+  .address-column {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .address {
+    font-size: 1.2rem;
+  }
+  .copyright {
+    padding: 1.2rem;
+  }
+  .DNSM-header {
+    font-size: 3rem;
+  }
+  .DNSM-statement,
+  .DNSM-statement-nd {
+    text-align: center;
+  }
+}
+
+/* --- Mobile L 425px ---*/
+
+@media (max-width: 27em) {
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .decoration {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .SSS-logo {
+    width: 40%;
+  }
+
+  .page-background {
+    height: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2.4rem;
+  }
+
+  .address-column {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0.2rem solid rgba(255, 255, 255, 0.753);
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.753);
+  }
+  .address {
+    font-size: 1.2rem;
+  }
+
+  .DNSM-header {
+    font-size: 3rem;
+  }
+
+  .DNSM-statement,
+  .DNSM-statement-nd {
+    text-align: center;
+    height: 40%;
+    width: 60%;
+    margin: 10% 20% 0 20%;
+  }
+  /*NAV*/
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/* --- Mobile M 375px  ---*/
+@media (max-width: 23em) {
+  .page-background {
+    width: cover;
+  }
+
+  .SSS-logo {
+    width: 45%;
+  }
+
+  /*NAV*/
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2.4rem;
+  }
+}
+
+/* --- Mobile S 320px  ---*/
+
+@media (max-width: 20em) {
+  .SSS-logo {
+    width: 55%;
+  }
+
+  /*Nav*/
+  .main-nav {
+    padding: 4.8rem;
+  }
+}

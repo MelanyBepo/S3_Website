@@ -8,7 +8,7 @@
   width: 100%;
   height: 12.8rem;
   padding: 0 1.2rem;
-
+  z-index: 9999;
   position: absolute;
   left: inherit;
 }
@@ -137,32 +137,12 @@
   padding: 0 1.2rem;
 }
 
-.logo-column::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -48%;
-  background-color: #e7e8e9;
-  box-shadow: 0 0 0 0.5px #e7e8e97e;
-  padding: 0.05rem 16rem;
-  transform: rotate(90deg);
-  border-radius: 3px;
-}
-
-.logo-column::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -165%;
-  background-color: #e7e8e9;
-  box-shadow: 0 0 0 0.5px #e7e8e97e;
-  padding: 0.05rem 16rem;
-  transform: rotate(90deg);
-  border-radius: 3px;
-}
-
 .address-column {
   color: #e7e8e9;
+  border-left: 0.2rem solid rgba(255, 255, 255, 0.753);
+  border-right: 0.2rem solid rgba(255, 255, 255, 0.753);
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 .footer-heading {
   color: #e7e8e9;
@@ -315,7 +295,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100hv;
+  height: 100%;
 
   transition: all 0.3s ease-in;
 
@@ -323,6 +303,9 @@
   pointer-events: none;
   visibility: hidden;
   transform: translateX(100%);
+
+  display: grid;
+  grid-template-rows: 0.2fr 2fr 0.2fr;
 }
 
 .DNSM-lightbox-nd {
@@ -332,7 +315,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100hv;
+  height: 100vh;
 
   transition: all ease-in-out;
 
@@ -346,7 +329,7 @@
 .DNSM-statement-nd {
   background-color: #f1f1f2;
   box-shadow: 0 0 1px 1px rgba(15, 15, 14, 0.507);
-  margin: 10% 25%;
+  margin: 3% 25%;
   padding: 2.4rem 1.6rem;
   border-radius: 12px;
 
@@ -355,6 +338,9 @@
   gap: 2.4rem;
   align-items: center;
   justify-content: center;
+
+  grid-column: 1/4;
+  grid-row: 1/4;
 }
 
 .DNSM-btn-statement {

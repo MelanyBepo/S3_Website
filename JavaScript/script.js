@@ -4,7 +4,7 @@
 
 class HeaderTemp extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<header class="header container">
+    this.innerHTML = `<header class="header">
     <a href="index.html">
       <img
         class="SSS-logo"
@@ -27,7 +27,7 @@ class HeaderTemp extends HTMLElement {
           <a class="main-nav-link nav-cta" href="FindTalent.html">Find Talent</a>
         </li>
         <li>
-          <a class="main-nav-link nav-cta" href="ApplynowPage.html">Apply Now</a>
+          <a class="main-nav-link nav-cta" href="ApplynowPage.html">Join Our Team</a>
         </li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@ btnnavel.addEventListener("click", function () {
 class FooterTemp extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<footer class="section-footer">
-    <div class="container grid grid--3-cols">
+    <div class="footer-container container grid grid--3-cols">
       <div class="logo-column">
         <a href="index.html" class="logo-container">
           <img

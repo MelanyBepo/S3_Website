@@ -1,0 +1,92 @@
+.section-img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.tp-img {
+  background-image: url(../Findtalentpage/Green\ light\ Background.webp);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px 1px #34343282;
+  border-radius: 1px;
+  max-width: 100%;
+  height: 90vh;
+  z-index: -1;
+  grid-column: 1/6;
+  grid-row: 1/5;
+}
+
+.tp-img2 {
+  background-image: url(../Appplynowpage/Blue-\ light\ Background.png);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px 1px #34343282;
+  border-radius: 1px;
+  max-width: 100%;
+  height: 90vh;
+  z-index: -1;
+  grid-column: 1/6;
+  grid-row: 1/5;
+}
+
+.tp-header {
+  justify-self: center;
+  align-self: center;
+  font-size: 5.2rem;
+}
+
+.tp-subheader {
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-top: 2.4rem;
+}
+
+.tp-subheader2 {
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-top: 2.4rem;
+}
+
+.tp-thankyoumess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 25rem;
+  left: 20rem;
+  right: 20rem;
+}
+
+.tp-FAQpage,
+.tp-FAQPage:link,
+.tp-FAQPage:visited {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  background-color: #5eb229;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 2.4rem;
+  color: #1d1d1b;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.tp-FAQpage:hover,
+.tp-FAQpage:active {
+  background-color: #233dff;
+  color: #e7e8e9;
+}
