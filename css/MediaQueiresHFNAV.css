@@ -144,7 +144,6 @@
 
   .main-nav-link:link,
   .main-nav-link:visited {
-    font-size: 3.6rem;
     color: #f0f8ff;
   }
 
@@ -215,7 +214,7 @@
 
 @media (max-width: 27em) {
   h2 {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
   }
 
   h4 {
@@ -273,7 +272,7 @@
   /*NAV*/
   .main-nav-link:link,
   .main-nav-link:visited {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -290,7 +289,7 @@
   /*NAV*/
   .main-nav-link:link,
   .main-nav-link:visited {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 }
 

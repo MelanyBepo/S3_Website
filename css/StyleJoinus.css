@@ -50,7 +50,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 .ws-subheader,
@@ -140,7 +140,7 @@
 }
 
 .ws-c-1 {
-  background-color: #bfe0a9;
+  background-color: #b1d4ed;
 }
 
 .ws-c-2 {
@@ -148,7 +148,7 @@
 }
 
 .ws-c-3 {
-  background-color: #a7b1ff;
+  background-color: #2e8bc0;
 }
 
 .ws-btnholder {
@@ -165,7 +165,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 
@@ -177,11 +177,11 @@
 }
 
 .hwr-iconbkb {
-  background-color: #6577ff;
+  background-color: #b1d4ed;
 }
 
 .hwr-iconbkg {
-  background-color: #9ed17f;
+  background-color: #2e8bc0;
 }
 
 .hwr-timeline {
@@ -210,7 +210,7 @@
 
 .hwr-number {
   padding: 0.4rem 0.8rem;
-  background-color: #7ec154;
+  background-color: #2e8bc0;
   border-radius: 10%;
   box-shadow: 0 0 2px 1px #14141321;
   font-size: 2rem;
@@ -219,11 +219,7 @@
 }
 
 .hwr-numberbkb {
-  background-color: #6577ff;
-}
-
-.hwr-numberbkg {
-  background-color: #9ed17f;
+  background-color: #b1d4ed;
 }
 
 .hwr-step {
@@ -233,11 +229,11 @@
 }
 
 .hwr-stepulb {
-  border-image: linear-gradient(to right, transparent, #4f64ff, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
 }
 
 .hwr-stepulg {
-  border-image: linear-gradient(to right, transparent, #7ec154, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
 }
 
 .hwr-content {
@@ -383,11 +379,11 @@
 }
 
 .card-green {
-  background-color: #7ec154;
+  background-color: #2e8bc0;
 }
 
 .card-blue {
-  background-color: #4f64ff;
+  background-color: #b1d4ed;
 }
 
 .main-card .cards .card:hover {
@@ -521,7 +517,7 @@ input[type="radio"] {
 }
 
 .an-benefitsbox {
-  background-color: #bdc5ff;
+  background-color: #b1d4ed;
   padding: 2.4rem;
   border-radius: 9px;
   box-shadow: 0 0 1px 1px #14141338;
@@ -544,7 +540,7 @@ input[type="radio"] {
 .ws-applynowbtn,
 .ws-applynowbtn:link,
 .ws-applynowbtn:visited {
-  background-color: #5eb229;
+  background-color: #0085b7;
   padding: 1.2rem;
   border-radius: 9px;
   width: 20%;
@@ -558,7 +554,7 @@ input[type="radio"] {
 
 .ws-applynowbtn:hover,
 .ws-applynowbtn:active {
-  background-color: #6577ff;
+  background-color: #0c2d48;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }

@@ -78,7 +78,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
 }
 
 .mv-header-m,
@@ -88,7 +88,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
 }
 .mv-text,
 .ov-text,
@@ -109,7 +109,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .oc-c-1 {
-  background-color: #bfe0a9;
+  background-color: #b1d4ed;
 }
 
 .oc-c-2 {
@@ -154,7 +154,7 @@
 }
 
 .oc-c-3 {
-  background-color: #a7b1ff;
+  background-color: #2e8bc0;
 }
 
 .ov-card-head {

@@ -44,7 +44,7 @@
   }
 
   .about-header {
-    top: 24rem;
+    top: 18rem;
     right: 8rem;
     background-color: #1d1d1bab;
     border-radius: 9px;
@@ -52,7 +52,7 @@
   }
 
   .about-subheader {
-    top: 32rem;
+    top: 26rem;
     right: 8rem;
     line-height: 3rem;
     background-color: #1d1d1bab;
@@ -95,12 +95,12 @@
     background-position: center;
   }
   .about-header {
-    top: 30rem;
+    top: 22rem;
     right: 4rem;
   }
 
   .about-subheader {
-    top: 38rem;
+    top: 30rem;
     right: 4rem;
   }
 
@@ -156,17 +156,21 @@
   }
 
   .about-header {
-    top: 36rem;
-    right: 6.2rem;
+    top: 34rem;
+    right: 14rem;
     background-color: #1d1d1b00;
     color: #1d1d1b;
+    font-size: 2rem;
   }
 
   .about-subheader {
-    top: 42rem;
+    top: 37rem;
+    right: 7rem;
     text-align: center;
     background-color: #1d1d1b00;
     color: #1d1d1b;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
   }
 
   .ov-header,
@@ -228,7 +232,6 @@
     right: 7rem;
     background-color: #1d1d1b00;
     color: #1d1d1b;
-    font-size: 3.6rem;
   }
 
   .about-subheader {
@@ -237,7 +240,6 @@
     text-align: center;
     background-color: #1d1d1b00;
     color: #1d1d1b;
-    font-size: 2.2rem;
   }
   .ov-header,
   .op-header,
@@ -254,22 +256,23 @@
 
 @media (max-width: 20em) {
   .aboutus-img {
-    height: 38vh;
+    height: 40vh;
     background-image: url(../PageHeadermedia/Join\ us\ team\ 320.webp);
   }
   .about-header {
     top: 30rem;
-    right: 5rem;
-    font-size: 3.2rem;
+    right: 8rem;
+    font-size: 1.8rem;
   }
 
   .about-subheader {
-    top: 34rem;
+    top: 32rem;
     left: 4rem;
     text-align: center;
     background-color: #1d1d1b00;
     color: #1d1d1b;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
   .ov-card-head {
     display: flex;

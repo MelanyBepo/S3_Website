@@ -56,8 +56,8 @@
     font-size: 5.2rem;
   }
 
-  .cpf-subheader {
-    top: 30rem;
+  .pcf-subheader {
+    top: 24rem;
   }
 
   .si-subheader {
@@ -82,7 +82,7 @@
   }
 
   .pcf-subheader {
-    top: 20rem;
+    top: 16rem;
   }
 
   .si-subheader {
@@ -109,8 +109,9 @@
   }
 
   .pcf-subheader {
-    top: 12rem;
+    top: 10rem;
     font-size: 2rem;
+    line-height: 1.8rem;
   }
 
   .si-subheader {
@@ -145,7 +146,6 @@
   }
 
   .pcf-subheader {
-    top: 10rem;
     font-size: 1.8rem;
   }
   .si-subheader {
@@ -161,11 +161,14 @@
     height: 26vh;
   }
   .pcf-header {
-    top: 3rem;
+    top: 4rem;
+    font-size: 2.4rem;
   }
 
   .pcf-subheader {
-    top: 9rem;
+    top: 6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
 
   .si-subheader {
