@@ -5,7 +5,7 @@
 }
 
 .cr-img {
-  background-image: url(../Findtalentpage/Green\ light\ Background.webp);
+  background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 
@@ -217,13 +217,13 @@ input::-webkit-inner-spin-button {
   color: #e7e8e9;
   font-size: 1.8rem;
   font-weight: 600;
-  background-color: #5eb229;
+  background-color: #b5c5cb;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 3px #141413;
 }
 
 .cr-submitbtn:hover,
 .cr-submitbtn:active {
-  background-color: #233dff;
+  background-color: #b5c5cb;
   color: #e7e8e9;
 }

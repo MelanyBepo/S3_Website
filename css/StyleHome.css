@@ -80,14 +80,14 @@
   border-radius: 9px;
   color: #e7e8e9;
   font-weight: 600;
-  background-color: #5eb229;
+  background-color: #0085b7;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 3px #141413;
 }
 
 .hero-btn-cta:hover,
 .hero-btn-cta:active {
-  background-color: #233dff;
+  background-color: #145da0;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }
@@ -115,7 +115,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
 }
 
 .wwa-subheader,
@@ -149,7 +149,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #0e1866, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 
@@ -185,12 +185,12 @@
   color: #f1f1f2;
 }
 .cs-color {
-  background-color: #427d1d;
+  background-color: #0085b7;
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
 }
 .ss-color {
-  background-color: #4f64ff;
+  background-color: #0c2d48;
 }
 .bm-color {
   background-color: #4a4a49;
@@ -215,13 +215,13 @@
 }
 
 .cs-color-text {
-  color: #2f5915;
+  color: #0c2d48;
 }
 .ss-color-text {
-  color: #1c31cc;
+  color: #0c2d48;
 }
 .bm-color-text {
-  color: #4a4a49;
+  color: #0c2d48;
 }
 
 /** Why SSS section**/
@@ -241,7 +241,7 @@
   text-align: center;
   padding-bottom: 1.2rem;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, transparent, #264710, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   margin: 0 36rem;
 }
 
@@ -301,7 +301,7 @@
 
 .lt-cta {
   grid-column: 1 /-1;
-  background-image: url(../HomePage/Green\ light\ Background.webp);
+  background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.4rem;
@@ -318,7 +318,7 @@
 .lt-process-button,
 .lt-process-button:link,
 .lt-process-button:visited {
-  background-color: #5eb229;
+  background-color: #0085b7;
   padding: 1.2rem;
   border-radius: 9px;
   box-shadow: 0 0 3px 0.1px #141413;
@@ -331,7 +331,7 @@
 
 .lt-process-button:hover,
 .lt-process-button:active {
-  background-color: #6577ff;
+  background-color: #145da0;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }
@@ -339,7 +339,7 @@
 .lt-cta-button,
 .lt-cta-button:link,
 .lt-cta-button:visited {
-  background-color: #5eb229;
+  background-color: #0085b7;
   padding: 1.2rem;
   border-radius: 9px;
   width: 15%;
@@ -353,7 +353,7 @@
 
 .lt-cta-button:hover,
 .lt-cta-button:active {
-  background-color: #6577ff;
+  background-color: #145da0;
   color: #e7e8e9;
   box-shadow: inset 0 0 10px 2px #141413;
 }

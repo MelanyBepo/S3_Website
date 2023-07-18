@@ -44,8 +44,6 @@
 @media (max-width: 64em) {
   .FAQ-img {
     background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions\ 1050.webp);
-    height: 55vh;
-    background-attachment: scroll;
   }
 
   .section-img {
@@ -80,6 +78,11 @@
     background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions\ 768.webp);
     height: 45vh;
     position: relative;
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top;
   }
 
   .FAQ-header1 {
@@ -102,13 +105,11 @@
 @media (max-width: 27em) {
   .FAQ-img {
     background-image: url(../PageHeadermedia/Frequently\ Asked\ Questions\ 425.webp);
-    height: 25vh;
+    height: 32vh;
   }
 
   .FAQ-header1 {
-    font-size: 3rem;
-    top: 20rem;
-    left: 4rem;
+    font-size: 1.8rem;
   }
 
   .FAQ-number {

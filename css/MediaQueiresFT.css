@@ -47,17 +47,17 @@
 
 @media (max-width: 64em) {
   .cr-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 1024.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 55vh;
   }
 
   .cr-header {
-    top: 20rem;
-    font-size: 5.2rem;
+    top: 16rem;
+    font-size: 3.6rem;
   }
 
   .cr-subheader {
-    top: 30rem;
+    top: 22rem;
   }
 
   .si-subheader {
@@ -72,17 +72,17 @@
 
 @media (max-width: 48em) {
   .cr-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 768.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 45vh;
   }
 
   .cr-header {
-    top: 10rem;
-    font-size: 4.4rem;
+    top: 8rem;
+    font-size: 3.6rem;
   }
 
   .cr-subheader {
-    top: 20rem;
+    top: 14rem;
   }
 
   .si-subheader {
@@ -99,18 +99,19 @@
 
 @media (max-width: 27em) {
   .cr-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 425.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 35vh;
   }
 
   .cr-header {
-    top: 6rem;
-    font-size: 3.6rem;
+    top: 4rem;
+    font-size: 2.4rem;
   }
 
   .cr-subheader {
-    top: 12rem;
-    font-size: 2rem;
+    top: 10rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
 
   .si-subheader {
@@ -135,18 +136,17 @@
 /* --- Mobile M 375px  ---*/
 @media (max-width: 23em) {
   .cr-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 375.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 30vh;
   }
 
   .cr-header {
     top: 4rem;
-    font-size: 3.4rem;
   }
 
   .cr-subheader {
-    top: 10rem;
-    font-size: 1.8rem;
+    top: 8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -154,14 +154,15 @@
 
 @media (max-width: 20em) {
   .cr-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 320.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
   }
   .cr-header {
     top: 3rem;
   }
 
   .cr-subheader {
-    top: 9rem;
+    top: 8rem;
+    font-size: 1.6rem;
   }
 
   .si-subheader {

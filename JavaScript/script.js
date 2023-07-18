@@ -7,9 +7,9 @@ class HeaderTemp extends HTMLElement {
     this.innerHTML = `<header class="header">
     <a href="index.html">
       <img
-        class="SSS-logo"
-        alt="Sales Superior Services Logo"
-        src="SharedContent/SSS- Logo Header.png"
+        class="IM4U-logo"
+        alt="International Marketers 4 You"
+        src="SharedContent/IMFU Logo Completo.webp"
       />
     </a>
     <nav class="main-nav">
@@ -69,8 +69,8 @@ class FooterTemp extends HTMLElement {
         <a href="index.html" class="logo-container">
           <img
             class="logo-footer"
-            alt="Sales Superior Services Logo"
-            src="sharedcontent/SSS- Logo Header.png"
+            alt="International Marketers 4 You"
+            src="SharedContent/IM4F Logo White Contrast.webp"
           />
         </a>
         <ul class="social-links">
@@ -109,8 +109,7 @@ class FooterTemp extends HTMLElement {
           </li>
         </ul>
         <p class="copyright">
-          Copyright &copy; <span class="year">2020</span> by Sales
-          Superios Services. All right reserved.
+          Copyright &copy; <span class="year">2020</span> by International Marketers 4 You. All right reserved.
         </p>
       </div>
   
@@ -125,28 +124,28 @@ class FooterTemp extends HTMLElement {
               href="#"
             />
             <p class="address">
-              Zip Rio Blanco, Edificio 2 San Pedro Sula, Cortez, Honduras
+            1350 Hammondville RD, Pompano Beach, FL, United States, Florida
             </p>
           </div>
           <div class="contact-now">
-            <a href="tel:+504 3354-7269">
+            <a href="tel:+1 954-947-407">
               <img
                 class="contact-icon"
                 alt="phone icon"
                 src="sharedcontent/Phone Icon.svg"
               />
             </a>
-            <a class="footer-link" href="tel:+504 3354-7269">+504 3354-7269</a>
+            <a class="footer-link" href="tel:+1 954-947-4070">+1 954-947-4070</a>
           </div>
           <div class="contact-now">
-            <a href="mailto:info@3hn.com">
+            <a href="mailto:info@intlmarketers4u.com">
               <img
                 class="contact-icon"
                 alt="Email icon"
                 src="sharedcontent/Email Icon.svg"
               />
             </a>
-            <a class="footer-link" href="mailto:info@3hn.com">info@3hn.com</a>
+            <a class="footer-link" href="mailto:info@intlmarketers4u.com">info@intlmarketers4u.com</a>
           </div>
         </address>
       </div>

@@ -216,13 +216,13 @@ input::-webkit-inner-spin-button {
   color: #e7e8e9;
   font-size: 1.8rem;
   font-weight: 600;
-  background-color: #5eb229;
+  background-color: #b5c5cb;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 3px #141413;
 }
 
 .pcf-submitbtn:hover,
 .pcf-submitbtn:active {
-  background-color: #233dff;
+  background-color: #b5c5cb;
   color: #e7e8e9;
 }

@@ -29,9 +29,9 @@
 
 .FAQ-header1 {
   color: aliceblue;
-  font-size: 6.4rem;
+  font-size: 4.4rem;
   line-height: 1.8;
-  background-color: #1d1d1bab;
+  background-color: #1d1d1b62;
   border-radius: 9px;
   display: block;
   padding: 0.8rem;
@@ -73,7 +73,7 @@
   width: 4rem;
   height: 4rem;
   box-shadow: 0 0 2px #343432;
-  background-color: #6577ff;
+  background-color: #0c2d48;
   transition: transform 0.5s ease-in-out;
 
   position: absolute;
@@ -82,22 +82,22 @@
 
 .FAQ-accordion-header.active::after {
   transform: rotate(-180deg);
-  background-color: #bfe0a9;
+  background-color: #0085b7;
   color: #343432;
 }
 
 .FAQ-number {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-weight: 600;
-  color: #2f5915;
-  background-color: #a7b1ff6e;
+  color: #f0f0f0;
+  background-color: #0c2d48;
   padding: 0.4rem 1.2rem;
   border-radius: 9px;
   opacity: 50%;
 }
 
 .FAQ-question {
-  color: #2f5915;
+  color: #0c2d48;
   font-size: 2.4rem;
   font-weight: 600;
 }
@@ -111,7 +111,7 @@
 .FAQ-answer {
   margin-bottom: 1.2rem;
   border-top: 3px solid;
-  border-image: linear-gradient(to right, transparent, #152599, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #0c2d48, transparent) 1;
   text-align: justify;
   text-justify: inter-word;
   padding: 1.2rem;

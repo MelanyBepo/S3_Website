@@ -276,21 +276,22 @@
     height: 27vh;
     background-image: url(../PageHeadermedia/Join\ us\ team\ 2\ 768.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: scroll;
     background-position: top;
   }
 
   .joinus-header {
-    font-size: 3rem;
+    font-size: 2.4rem;
     top: 18rem;
     right: 6rem;
   }
   .joinus-subheader {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     top: 22rem;
     right: 6rem;
     margin-left: 18rem;
+    line-height: 2rem;
   }
   .ws-header,
   .hwr-header,
@@ -365,12 +366,12 @@
   }
 
   .joinus-header {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     top: 18rem;
     right: 6rem;
   }
   .joinus-subheader {
-    font-size: 2rem;
+    font-size: 1.6rem;
     top: 22rem;
     right: 6rem;
     margin-left: 18rem;
@@ -414,10 +415,6 @@
   .join-img {
     height: 20vh;
     background-image: url(../PageHeadermedia/Join\ us\ team\ 2\ 320.webp);
-    background-position: center;
-    background-size: contain;
-    background-attachment: scroll;
-    background-position: top;
   }
 
   .joinus-header {

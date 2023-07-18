@@ -22,13 +22,13 @@
 
 @media (max-width: 64em) {
   .tp-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 1024.webp);
-    height: 75vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 85vh;
   }
 
   .tp-img2 {
-    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 1024.webp);
-    height: 75vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 85vh;
   }
   .tp-header {
     font-size: 4.4rem;
@@ -44,13 +44,13 @@
 
 @media (max-width: 48em) {
   .tp-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 768.webp);
-    height: 65vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 80vh;
   }
 
   .tp-img2 {
-    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 768.webp);
-    height: 65vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 80vh;
   }
 
   .tp-header {
@@ -68,13 +68,13 @@
 
 @media (max-width: 27em) {
   .tp-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 425.webp);
-    height: 58vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 65vh;
   }
 
   .tp-img2 {
-    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 425.webp);
-    height: 58vh;
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 65vh;
   }
 
   .tp-thankyoumess {
@@ -83,12 +83,16 @@
     right: 4rem;
   }
   .tp-header {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     text-align: center;
   }
 
   .tp-subheader,
   .tp-subheader2 {
+    font-size: 1.5rem;
+  }
+
+  .tp-FAQpage {
     font-size: 1.8rem;
   }
 }
@@ -96,12 +100,12 @@
 /* --- Mobile M 375px  ---*/
 @media (max-width: 23em) {
   .tp-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 375.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 55vh;
   }
 
   .tp-img2 {
-    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 375.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 60vh;
   }
 
@@ -114,11 +118,12 @@
 
 @media (max-width: 20em) {
   .tp-img {
-    background-image: url(../Findtalentpage/Green\ light\ Background\ 320.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
+    height: 65vh;
   }
 
   .tp-img2 {
-    background-image: url(../Appplynowpage/Blue-\ light\ Background\ 320.webp);
+    background-image: url(../SharedContent/Light\ Blue\ Gradient\ Background\ Image.webp);
     height: 65vh;
   }
 
