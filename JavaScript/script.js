@@ -75,7 +75,7 @@ class FooterTemp extends HTMLElement {
         </a>
         <ul class="social-links">
           <li>
-            <a class="footer-link-social" href="#">
+            <a class="footer-link-social" href="https://www.facebook.com/weareIM4U">
               <img
                 class="social-icon"
                 alt="Facebook link icon"
@@ -177,14 +177,14 @@ class FooterTemp extends HTMLElement {
         />
         <h2 class="acc-header">Accessibility Statement</h2>
         <p class="acc-statement">
-          Superior Sales Services is committed to providing a website accessible
+          IM4U is committed to providing a website accessible
           to the broadest possible audience, regardless of circumstance and
           ability. We aim to adhere as closely as possible to the Web Content
           Accessibility Guidelines (WCAG 2.0, Level AA), published by the World
           Wide Web Consortium (W3C). These guidelines explain how to make Web
           content more accessible for people with disabilities. Conformance with
           these guidelines will help make the web more user-friendly for everyone.
-          While Superior Sales Services adhere to the policies and standards for
+          While IM4U adhere to the policies and standards for
           accessibility, it is not always possible to do so in all website areas.
           We are currently working to achieve this. Be aware that due to the
           dynamic nature of the website, minor issues may occasionally occur as it
@@ -193,7 +193,7 @@ class FooterTemp extends HTMLElement {
           If you have any comments or suggestions relating to improving the
           accessibility of our site, please don't hesitate to contact our
           accessibility coordinator by emailing
-          <a class="acc-email" href="mailto:info@3hn.com">info@3hn.com.</a>
+          <a class="acc-email" href="info@intlmarketers4u.com">info@intlmarketers4u.com</a>
           Your feedback will help us make improvements.
         </p>
         <p class="acc-btn">
